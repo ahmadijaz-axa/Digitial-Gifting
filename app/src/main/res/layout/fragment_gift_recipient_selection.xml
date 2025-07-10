@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkBlack"
+        tools:context=".view.digitalgifting.fragment.GiftRecipientSelectionFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_rounded_corners"
+            tools:context=".view.sendmoney.cash2goods.InitCash2GoodsFragment">
+
+            <include
+                android:id="@+id/c2g_header"
+                layout="@layout/layout_digital_gifting_steps"
+                />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/searchRecipientET"
+                style="@style/search_field"
+                android:layout_margin="@dimen/sdp_17"
+                android:hint="Enter name or mobile number"
+                android:inputType="textVisiblePassword"
+                android:maxLength="15"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/c2g_header" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_search"
+                android:layout_width="@dimen/sdp_27"
+                android:layout_height="@dimen/sdp_27"
+                android:layout_marginEnd="40dp"
+                android:background="@color/white_F3F3F3"
+                android:padding="@dimen/sdp_2"
+                app:layout_constraintBottom_toBottomOf="@id/searchRecipientET"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/searchRecipientET"
+                app:layout_constraintVertical_bias="0.529"
+                app:srcCompat="@drawable/ic_search"
+                app:tint="@color/darkBlack2" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/figma_21_dp"
+                android:paddingStart="@dimen/figma_19_dp"
+                android:paddingTop="@dimen/figma_10_dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchRecipientET">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:visibility="gone">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/contact_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_contact_image_icon" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/shareInviteLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:gravity="center"
+                        android:tag="unselected"
+                        android:text="Share the link"
+                        android:textColor="@color/black2"
+                        android:visibility="gone"
+                        app:fontFamily="@font/worksans_regular"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/contact_icon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <androidx.constraintlayout.widget.Group
+                        android:id="@+id/shareButtonGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="invisible"
+                        app:constraint_referenced_ids="shareInviteLink,contact_icon" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/selectAllContacts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_14sdp"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:text="@string/select"
+                        android:textColor="@color/lightGrey2"
+                        app:fontFamily="@font/worksans_regular"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/checkAllContact"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:id="@+id/checkAllContact"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_4sdp"
+                        android:text="@null"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/divider_language"
+                    android:visibility="gone" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/all_contacts_header_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/sdp_16"
+                    android:layout_marginTop="@dimen/sdp_24"
+                    android:gravity="center"
+                    android:text="@string/all_contacts"
+                    android:visibility="gone"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_12ssp"
+                    app:fontFamily="@font/worksans_regular"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias=".0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/invite_btn" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <include
+                    android:id="@+id/noResultViewC2G"
+                    layout="@layout/layout_no_results"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/_90sdp"
+                    android:layout_gravity="center_vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/searchRecipientET" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/allInvitesRecyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:visibility="visible"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constrainedHeight="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:itemCount="6"
+                    tools:listitem="@layout/invite_earn_row_view" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/add_sendC2G_btn"
+                style="@style/btn_active_black_with_no_drawable"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/figma_57_dp"
+                android:layout_marginTop="@dimen/figma_18_dp"
+                android:layout_marginEnd="@dimen/figma_57_dp"
+                android:layout_marginBottom="@dimen/figma_40_dp"
+                android:background="@drawable/layout_rounded_dark_black"
+                android:gravity="center"
+                android:text="Send to 1 Contact"
+                android:textSize="@dimen/_12ssp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

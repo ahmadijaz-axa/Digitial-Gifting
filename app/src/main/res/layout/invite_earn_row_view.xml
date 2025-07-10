@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_6sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userNameLabel"
+            style="@style/MayaUserInitialsStyle"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:background="@drawable/ic_ellipse_maya"
+            android:gravity="center"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="AT" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/userImage"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:textColor="@android:color/white"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_locator" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/completeUserNameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/worksans_regular"
+            android:maxLines="2"
+            android:textColor="@color/darkBlack2"
+            android:textSize="@dimen/_14ssp"
+            android:paddingStart="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/userImage"
+            app:layout_constraintEnd_toStartOf="@+id/constraint_send_invite"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toTopOf="@+id/userImage"
+            app:layout_constraintVertical_bias=".2"
+            tools:text="No Name" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/userNumberTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/worksans_regular"
+            android:maxLines="1"
+            android:textColor="@color/grey_6F6F6F"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toStartOf="@+id/constraint_send_invite"
+            app:layout_constraintStart_toEndOf="@+id/userImage"
+            app:layout_constraintTop_toBottomOf="@+id/completeUserNameTv"
+
+            tools:text="03455916949" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/_60sdp"
+        android:id="@+id/constraint_send_invite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/_10sdp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/send_invite"
+            style="@style/Semi1420LightGrey2"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/figma_36_dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:background="@drawable/layout_rounded_dark_black"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/invite"
+            android:textColor="@color/yellow"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/figma_14_sp"
+            app:fontFamily="@font/worksans_semibold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:text="@null"
+            android:visibility="gone"
+            android:scaleY=".8"
+            android:scaleX=".8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".4" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/send_reminder"
+            style="@style/Semi1420LightGrey2"
+            android:layout_width="@dimen/figma_106_dp"
+            android:layout_height="@dimen/figma_36_dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:background="@drawable/layout_rounded_dark_black"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/send_reminder"
+            android:textColor="@color/yellow"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/figma_12_sp"
+            app:fontFamily="@font/worksans_semibold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/reminder_sent"
+            style="@style/Semi1420LightGrey2"
+            android:layout_width="@dimen/figma_106_dp"
+            android:layout_height="@dimen/figma_36_dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:background="@drawable/layout_rounded_dark_grey_white"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/reminder_sent"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/figma_12_sp"
+            app:fontFamily="@font/worksans_semibold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/completed"
+            style="@style/Semi1420LightGrey2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/figma_36_dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/completed"
+            android:textColor="@color/gray_8D8D8D"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/figma_12_sp"
+            app:fontFamily="@font/worksans_semibold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/halfCompleted"
+            style="@style/Semi1420LightGrey2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/figma_36_dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/half_completed"
+            android:textColor="@color/gray_8D8D8D"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/figma_12_sp"
+            app:fontFamily="@font/worksans_semibold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/linked"
+            android:visibility="gone"
+            android:id="@+id/txtLinked"
+            android:layout_marginEnd="@dimen/figma_20_dp"
+            android:textColor="@color/grey_6F6F6F"
+            android:textSize="@dimen/figma_14_sp"
+            android:fontFamily="@font/cocon_regular"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/invited"
+            android:visibility="gone"
+            android:id="@+id/txtInvited"
+            android:layout_marginEnd="@dimen/figma_20_dp"
+            android:textColor="@color/grey_6F6F6F"
+            android:textSize="@dimen/figma_14_sp"
+            android:fontFamily="@font/cocon_regular"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

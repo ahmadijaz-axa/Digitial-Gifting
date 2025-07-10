@@ -26,10 +26,12 @@
                 android:id="@+id/ivBack"
                 android:layout_width="@dimen/figma_24_dp"
                 android:layout_height="@dimen/figma_24_dp"
-                android:layout_margin="@dimen/figma_16_dp"
+                android:layout_marginStart="@dimen/figma_16_dp"
                 android:src="@drawable/ic_arrow_left_393939"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvTitle"
@@ -39,19 +41,19 @@
                 android:textStyle="bold"
                 android:textSize="@dimen/figma_16_sp"
                 android:textColor="@color/grey_universal"
-                android:layout_marginTop="@dimen/figma_15_dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toEndOf="@id/ivBack"
                 app:layout_constraintEnd_toStartOf="@id/ivHome"
-                app:layout_constraintHorizontal_bias="0.5"/>
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/ivHome"
                 android:layout_width="@dimen/figma_24_dp"
                 android:layout_height="@dimen/figma_24_dp"
-                android:layout_margin="@dimen/figma_16_dp"
+                android:layout_marginEnd="@dimen/figma_16_dp"
                 android:src="@drawable/ic_home_transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
 

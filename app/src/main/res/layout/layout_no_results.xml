@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/noResultIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_no_contacts" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/noResultTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/worksans_medium"
+                android:text="@string/oh_no"
+                android:textColor="@color/grey_shade"
+                android:textSize="@dimen/_20ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/noResultSubTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_37sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_37sdp"
+                android:fontFamily="@font/worksans_regular"
+                android:gravity="center"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="@dimen/_3ssp"
+                android:text="@string/link_jazz_contacts"
+                android:textColor="@color/grey_shade"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/addContactsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sdp_16"
+                android:background="@drawable/bg_btn_back"
+                android:fontFamily="@font/worksans_semibold"
+                android:gravity="center"
+                android:paddingHorizontal="@dimen/_20sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:text="@string/add_contacts"
+                android:textColor="@color/lightBlack"
+                android:textSize="@dimen/_13ssp"
+                android:visibility="gone"
+                app:lineHeight="@dimen/_20sdp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
