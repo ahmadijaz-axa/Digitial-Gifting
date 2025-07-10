@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/ic_warning_black"
+            android:gravity="center"
+            android:width="@dimen/_8sdp"
+            android:height="@dimen/_8sdp" />
+    </item>
+</layer-list>

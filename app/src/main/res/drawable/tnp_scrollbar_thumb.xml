@@ -1,0 +1,9 @@
+<!-- res/drawable/custom_scrollbar_thumb.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grey_6F6F6F" /> <!-- Change color as needed -->
+            <size android:height="@dimen/_30sdp" /> <!-- Change height as needed -->
+        </shape>
+    </item>
+</layer-list>

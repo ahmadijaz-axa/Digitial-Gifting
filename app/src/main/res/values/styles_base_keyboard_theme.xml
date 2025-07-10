@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AnyKeyboardBaseKeyIconTheme">
+        <!--&lt;!&ndash; should support normal, android:state_pressed, feedback, android:state_pressed+feedback, android:state_checked, state_checked+feedback &ndash;&gt;
+        <item name="iconKeyShift">@drawable/dark_key_shift_set</item>
+        &lt;!&ndash; should support normal, android:state_pressed, feedback, android:state_pressed+feedback, android:state_checked, state_checked+feedback &ndash;&gt;
+        <item name="iconKeyControl">@drawable/dark_key_control_set</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyBackspace">@drawable/ic_outline_backspace_white</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyForwardDelete">@drawable/sym_keyboard_forward_delete</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeySpace">@drawable/yochees_light_key_function</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyTab">@drawable/sym_keyboard_tab</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyCancel">@drawable/sym_keyboard_cancel</item>
+        <item name="iconKeyImageInsert">@drawable/ic_media_insertion</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyGlobe">@drawable/ic_language_dark</item>
+        &lt;!&ndash; should support normal, key_type_feedback, action_done, action_done+key_type_feedback, action_search, action_search+key_type_feedback, action_go, action_go+key_type_feedback  &ndash;&gt;
+        <item name="iconKeyAction">@drawable/dark_key_action_set</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeyMic">@drawable/ic_av_mic</item>
+        &lt;!&ndash; should support normal, feedback &ndash;&gt;
+        <item name="iconKeySettings">@drawable/ic_action_settings</item>
+
+        &lt;!&ndash; condensing icons &ndash;&gt;
+        <item name="iconKeyCondenseNormal">@drawable/ic_normal_keyboard</item>
+        <item name="iconKeyCondenseSplit">@drawable/ic_split_keyboard</item>
+        <item name="iconKeyCondenseCompactToRight">@drawable/ic_compact_right_keyboard</item>
+        <item name="iconKeyCondenseCompactToLeft">@drawable/ic_compact_left_keyboard</item>
+
+        <item name="iconKeyClipboardCopy">@drawable/ic_clipboard_copy</item>
+        <item name="iconKeyClipboardCut">@drawable/ic_clipboard_cut</item>
+        <item name="iconKeyClipboardPaste">@drawable/ic_clipboard_paste</item>
+        <item name="iconKeyClipboardSelect">@drawable/ic_clipboard_select</item>
+        <item name="iconKeyClipboardFineSelect">@drawable/ic_clipboard_fine_select</item>
+        <item name="iconKeyQuickText">@drawable/ic_quick_text_dark_theme</item>
+        <item name="iconKeyQuickTextPopup">@drawable/ic_quick_text_dark_theme</item>
+
+        <item name="iconKeyUndo">@drawable/ic_undo_dark_theme</item>
+        <item name="iconKeyRedo">@drawable/ic_redo_dark_theme</item>
+
+        <item name="iconKeyArrowRight">@drawable/yochees_dark_arrow_right</item>
+        <item name="iconKeyArrowLeft">@drawable/yochees_dark_arrow_left</item>
+        <item name="iconKeyArrowUp">@drawable/yochees_dark_arrow_up</item>
+        <item name="iconKeyArrowDown">@drawable/yochees_dark_arrow_down</item>-->
+    </style>
+
+    <style name="AnyKeyboardBaseTheme">
+       <!-- <item name="android:background">@drawable/dark_background</item>
+        <item name="keyboardWallpaper">@drawable/ask_wallpaper</item>
+        <item name="keyBackground">@drawable/dark_btn_key</item>
+
+        <item name="keyTextSize">@dimen/key_text_size</item>
+        <item name="keyTextStyle">bold</item>
+        <item name="keyTextColor">#FFFFFFFF</item>
+        <item name="labelTextSize">@dimen/key_label_text_size</item>
+
+        <item name="keyboardNameTextSize">@dimen/keyboard_name_text_size</item>
+        <item name="keyboardNameTextColor">#FAAA</item>
+
+        <item name="keyHysteresisDistance">@dimen/key_hysteresis_distance</item>
+        &lt;!&ndash; this is what Android team figured verticalCorrection should be &ndash;&gt;
+        <item name="verticalCorrection">-0.05in</item>
+
+        <item name="shadowColor">#BB000000</item>
+        <item name="backgroundDimAmount">0.5</item>
+        <item name="symbolColorScheme">white</item>
+
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+
+        &lt;!&ndash; key preview (feedback) &ndash;&gt;
+        <item name="keyPreviewBackground">@drawable/dark_btn_key_preview_background</item>
+        <item name="keyPreviewTextColor">#FFFFFFFF</item>
+        <item name="keyPreviewTextSize">36sp</item>
+        <item name="keyPreviewLabelTextSize">26sp</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset</item>
+        <item name="previewGestureTextSize">16sp</item>
+        <item name="previewGestureTextColor">#FFFFFFFF</item>
+        <item name="previewAnimationType">appear</item>
+        &lt;!&ndash; suggestion strip &ndash;&gt;
+        <item name="suggestionNormalTextColor">@color/candidate_normal</item>
+        <item name="suggestionRecommendedTextColor">@color/candidate_recommended</item>
+        <item name="suggestionOthersTextColor">@color/candidate_other</item>
+        <item name="suggestionTextSize">@dimen/candidate_font_height</item>
+        <item name="suggestionBackgroundImage">@drawable/dark_background</item>
+        <item name="suggestionDividerImage">@drawable/dark_suggestions_divider</item>
+        <item name="suggestionStripHeight">@dimen/candidate_strip_height</item>
+        <item name="suggestionWordXGap">@dimen/candidate_strip_x_gap</item>
+
+        <item name="keyNormalHeight">@dimen/figma_48_dp</item>
+        <item name="keySmallHeight">@dimen/default_key_half_height</item>
+        <item name="keyLargeHeight">@dimen/default_key_tall_height</item>
+
+        <item name="keyHorizontalGap">@dimen/default_key_horizontal_gap</item>
+        <item name="keyVerticalGap">@dimen/default_key_vertical_gap</item>
+
+        &lt;!&ndash; V2 &ndash;&gt;
+        <item name="hintTextSize">@dimen/key_hint_text_size</item>
+        <item name="hintTextColor">#56595E</item>
+        &lt;!&ndash; hint label positioning attributes &ndash;&gt;
+        <item name="hintLabelVAlign">bottom</item>
+        <item name="hintLabelAlign">right</item>
+
+        <item name="keyTextCaseStyle">auto</item>-->
+    </style>
+
+    <style name="AnyKeyboardPopupBaseTheme" parent="@style/AnyKeyboardBaseTheme">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <!-- selected popup key is the one ABOVE the finger -->
+        <!--<item name="verticalCorrection">-0.26in</item>
+        &lt;!&ndash; this will say "no preview" &ndash;&gt;
+        <item name="keyPreviewTextSize">0dp</item>
+        <item name="hintTextSize">0dp</item>
+
+        <item name="keyTextCaseStyle">auto</item>-->
+    </style>
+</resources>

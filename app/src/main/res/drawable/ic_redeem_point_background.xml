@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:color="@color/marigold_BF9209"
+        android:width="@dimen/figma_1_dp"
+        />
+    <solid android:color="@color/marigold_FFE8A4"/>
+    <corners android:radius="@dimen/figma_30_dp"/>
+
+</shape>

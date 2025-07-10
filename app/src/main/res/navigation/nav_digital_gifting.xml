@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_digital_gifting"
+    app:startDestination="@id/digitalGiftingDashboardFragment">
+
+    <fragment
+        android:id="@+id/digitalGiftingDashboardFragment"
+        android:name="com.ibm.jazzcashconsumer.view.digitalgifting.fragment.DigitalGiftingDashboardFragment"
+        android:label="Gifting Occasions"
+        tools:layout="@layout/fragment_digital_gifting_dashboard">
+        <action
+            android:id="@+id/action_digitalGiftingDashboardFragment_to_digitalGiftOptionFragment"
+            app:destination="@id/digitalGiftOptionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/digitalGiftOptionFragment"
+        android:name="com.ibm.jazzcashconsumer.view.digitalgifting.fragment.DigitalGiftOptionFragment"
+        android:label="fragment_digital_gift_option"
+        tools:layout="@layout/fragment_digital_gift_option">
+        <argument
+            android:name="flowName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

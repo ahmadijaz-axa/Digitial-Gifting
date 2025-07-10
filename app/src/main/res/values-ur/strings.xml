@@ -1,0 +1,1850 @@
+<resources>
+    <!--region App Name   -->
+    <string name="app_name">JazzCash</string>
+    <!--endregion-->
+    <!--region MaxiPanel Token -->
+    <string name="maxipanel_token">53b83078ab7055917f33cf49a11378b6</string>
+    <!--endregion-->
+    <!--region home-->
+    <!--region bottom sheet-->
+    <string name="bottomSheetOfferCD">offer image</string>
+    <string name="bottomSheetBrowse">آفرز براؤز کریں</string>
+    <string name="bottomSheetTravel">ٹریول</string>
+    <string name="bottomSheetGovernment">حکومت</string>
+    <string name="bottomSheetEntertainment">تفریح ​​اورکھانا</string>
+    <string name="bottomSheetEducation">تعلیم</string>
+    <string name="voucher_amount">واؤچر کی رقم</string>
+
+    <string name="bottomSheetGridTitleColleges">کالج کی فیس</string>
+    <string name="bottomSheetGridTitleUniversities">جامع درس گاہ کی فیس</string>
+    <string name="bottomSheetGridTitleEntryTest">انٹری ٹیسٹ کی فیس</string>
+    <string name="bottomSheetGridTitleTutoring"> ٹیوشن کی فیس</string>
+    <string name="bottomSheetGridTitleSchools">اسکول فیس</string>
+    <string name="bottomSheetMobile">موبائل</string>
+    <string name="bottomSheetWallet">پرس</string>
+    <string name="bottomSheetFinance">مالیات</string>
+    <string name="bottomSheetGridTitlePostPaidBill">پوسٹپیڈ بل</string>
+    <string name="bottomSheetGridTitlePayBills">یوٹیلٹی بلز</string>
+    <string name="bottomSheetGridTitleGetPayment">رقم کی موصولی</string>
+    <string name="bottomSheetGridTitleSchedule">شیڈول</string>
+    <string name="bottomSheetGridTitleInsurance">انشورنس</string>
+    <string name="bottomSheetGridTitleBorrow">ادھار</string>
+    <string name="bottomSheetGridTitleRepayLoan">قرض کی اداہگی</string>
+
+    <string name="bottomSheetGridTitleOnlineVounchers">آن لائن واؤچرز</string>
+    <string name="enter_jazz_cash_voucher_number">واؤچر نمبر درج کریں Jazzcash</string>
+
+    <string name="review_trans_details">تفصیلات کا جائزہ لیں</string>
+
+    <!--endregion-->
+    <!--region Bottom Navigation Bar -->
+    <string name="home_bottom_nav">ھوم</string>
+    <string name="rewards_bottom_nav">انعامات</string>
+    <string name="invite_earn_bottom_nav">مدعو کریں</string>
+    <string name="invite">مدعو کریں</string>
+    <string name="scan_bottom_nav">سکین QR</string>
+    <string name="search_bottom_nav">سرچ</string>
+    <string name="search">سرچ</string>
+    <string name="locator_bottom_nav">لوکیٹر</string>
+    <!--endregion-->
+    <!--region Upper Home section-->
+    <string name="jazzcash">JazzCash</string>
+    <string name="order_food">کھانا منگوایں</string>
+    <string name="m_tag">ٹیگ ریچارج - M</string>
+
+    <string name="request_money">پیسے کی درخواست</string>
+    <string name="my_jazzcash">میرا جیزکیش</string>
+    <string name="add_money">پیسے کا اضافہ</string>
+    <string name="my_account">میرا اکاونٹ</string>
+    <string name="sendMoneyDialogCancel">منسوخ کریں</string>
+    <string name="sendMoneyDialogTitle">ایک آپشن منتخب کریں</string>
+    <string name="sendMoneyDialogOption1Txt">موبائل اکاؤنٹ میں بھیجیں</string>
+    <string name="sendMoneyDialogOption3Txt">بینک اکاؤنٹ میں بھیجیں</string>
+    <string name="send_money_to">پیسے بھیجیں</string>
+    <string name="home_edit_text">ترمیم</string>
+    <string name="send_money">رقم کی منتقلی</string>
+
+    <!--endregion-->
+
+    <!-- User account -->
+    <string name="change_language">زبان تبدیل کریں</string>
+    <string name="choose_prefered_language">اپنی پسند کی زبان کا انتخاب کریں</string>
+    <string name="english_language">English</string>
+    <string name="urdu_language">اردو</string>
+    <string name="user_account">اکاؤنٹ: </string>
+    <string name="jazzcash_consumer">JazzCash Consumer</string>
+    <string name="jazzcash_merchant">JazzCash Merchant</string>
+    <string name="change_email_address">ای میل ایڈریس تبدیل کریں</string>
+    <string name="current_email_address">موجودہ ای میل ایڈریس</string>
+    <string name="current">موجودہ</string>
+    <string name="enter_new_email">نیا ای میل ایڈریس درج کریں</string>
+    <string name="email_changed">ای میل تبدیل کر دیا گیا ہے</string>
+    <string name="edit_profile_picture">آپ کے پروفائل کی تصویرتبدیل کریں</string>
+    <string name="choose_photo">تصویر منتخب کریں</string>
+    <string name="take_photo">تصویر لیجئے</string>
+    <string name="delete_photo"> تصویر مٹایں</string>
+
+    <!--endregion-->
+    <string name="logout_message">کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟</string>
+    <string name="confirm_logout">جی ہاں ، مجھے لاگ آؤٹ کر دیں۔</string>
+
+    <!--region Send Money-->
+    <string name="refresh">Refresh</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="share">شیر کریں</string>
+    <string name="download">ڈاؤن لوڈ کریں</string>
+    <string name="success">کامیابی</string>
+    <string name="done">ہو گیا</string>
+    <string name="fee">فیس</string>
+    <string name="total">کل</string>
+    <string name="to">وصول کنندہ</string>
+    <string name="from">سے</string>
+    <string name="tid_account_id">TID:\u0020 </string>
+    <string name="date_title">تاریخ</string>
+    <string name="sms_sent_to"> کو ایک ایس ایم ایس بھیجا گیا ہے</string>
+    <string name="purpose_title">مقصد</string>
+    <string name="no_results_found">کچھ نہین مل سکا</string>
+    <string name="more_than_daily"> معذرت ، یہ آپ کی روزانہ کی حد سے زیادہ ہے۔</string>
+    <string name="contact_title_recent">حالیہ</string>
+    <string name="contact_title_all_contact">تمام رابطے</string>
+    <!--endregion-->
+    <!--region Add Amount-->
+    <string name="add_amount_rs_Label">روپے بھیجیں</string>
+    <string name="add_amount_send_Label">پیسے بھیجیں</string>
+    <string name="add_amount_rs_Label_param">Rs. %1$s</string>
+    <string name="add_amount_send_money_to"> موبائل اکاؤنٹ میں منتقل کریں</string>
+    <string name="add_amount_enter_amount">پر بھیجنے کے لئے رقم درج کریں</string>
+    <string name="add_amount_max_limit">2000 روپے کی حد باقی ہے</string>
+    <string name="add_amount_amonut_hint">0</string>
+    <string name="rs_text">Rs.</string>
+
+
+    <!--endregion -->
+    <!--region mpin -->
+    <string name="_0">0</string>
+    <string name="_5">5</string>
+    <string name="enter_4_digit_mpin">4 ھندسوں کا MPIN درج کریں</string>
+    <string name="forgot_mpin">کیا آپ اپنا MPIN بھول گیے ھیں؟</string>
+    <string name="need_help">آپ کو مدد چاھیے؟</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="_9">9</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="touch_the_fingerprint_sensor">فنگر پرنٹ سینسر پر انگلی رکھیں</string>
+    <string name="use_mpin">اس کی بجاے MPIN استعمال کریں؟</string>
+    <string name="fingerprint_success">کامیابی</string>
+    <string name="_00000_0000000_0">00000-0000000-0</string>Ma
+    <string name="send_to_cnic">شناختی کارڈ میں منتقل کریں</string>
+    <string name="enter_cnic_number"> وصول کنندہ کا شناختی کارڈ نمبر ڈالیں</string>
+    <string name="this_number_should_be">درج کردہ نمبر 13 ہندسوں کا ہونا چاہئے</string>
+    <string name="_13_digits">13 ہندسوں</string>
+    <string name="_34603_2438170_8">34603-2438170-8</string>
+    <string name="_continue">جاری رکھیں</string>
+    <string name="change">تبدیل کریں</string>
+    <string name="try_again">دوبارہ کوشش کریں</string>
+    <string name="transaction_failed">ٹرانزیکشن ناکام</string>
+    <string name="looks_like_something_went_wrong">آپ کی ٹرانزیکشن مکمل نہیں ہو سکی</string>
+    <string name="send_to_mobile_account"> موبائل اکاؤنٹ میں منتقل کریں </string>
+    <string name="send_to_mobile_account_sub_title">نمبر درج کریں یا سرچ کریں</string>
+    <string name="send_money_to_4_more_friends_to_earn_rs_500">  اپنے دوستوں کو JazzCash پر مدعو کریں اور انعامات کمائیں</string>
+    <string name="top_picks_for_you">ٹاپ پکس</string>
+    <string name="rs">روپے</string>
+    <string name="school_fees">اسکول فیس</string>
+    <string name="food_delivery">کھانا منگوایں</string>
+    <string name="mobile_load">موبائل لوڈ</string>
+    <string name="utility_bills">یوٹیلٹی بلز</string>
+    <string name="money_transfer">رقم کی منتقلی</string>
+    <string name="invite_earn">دوستون کو بلایں اور پیسے کمایں</string>
+    <string name="show_bank_formats">بینک فارمیٹس دکھائیں</string>
+    <!--endregion -->
+
+    <!-- region Send to Bank-->
+    <string name="sendMoneToBank">Transfer to Bank Account</string>
+    <string name="transfer_to_bank_account">بینک اکاؤنٹ پر بھیجیں</string>
+    <string name="search_bank_name">بینک کا نام تلاش کریں</string>
+    <string name="search_purpose">پیسے بھیجنے کا مقصد منتخب کریں</string>
+    <string name="enter_account_number">اکاؤنٹ نمبر درج کریں</string>
+    <string name="add_bank_account">بینک اکاؤنٹ شامل کریں</string>
+    <string name="enter_amount">رقم درج کریں</string>
+    <string name="you_have_a_limit_of_rs_10_000"> آپ کی روزانہ ڈیبٹ کی حد 10000 روپے ہے </string>
+    <string name="change_bank_details">Change Bank Account</string>
+    <string name="recipient_bank_name">Recipient’s Bank</string>
+    <string name="account_number">Account Number</string>
+    <!--endregion-->
+
+    <!-- region Send to CNIC-->
+    <string name="add_mobile">موبائل نمبر شامل کریں</string>
+    <string name="transfer_to_cnic">شناختی کارڈ پر پیسے بھیجیں</string>
+    <string name="daily_debit_limit">آپ کی یومیا دیبٹ ھد %1$s ھے</string>
+    <string name="enter_recipient_cnic"> وصول کنندہ کا شناختی کارڈ نمبر ڈالیں </string>
+    <string name="daily_debit_limit_left_wording">left</string>
+    <string name="phone_confirmation_text">اس نمبر پر ایک کنفرمیشن SMS بھیج دیا جائے گا</string>
+    <string name="enter_phone_number_cnic"> وصول کنندہ کا موبائل نمبردرج کریں </string>
+    <string name="cnic_title">شناختی کارڈ</string>
+    <string name="recipient_phone_number">وصول کنندہ کا موبائل نمبر</string>
+    <string name="authorize_transfer">ٹرانزیکشن کی تصدیق کریں</string>
+    <string name="authorise_transaction">ٹرانزیکشن کی تصدیق کریں</string>
+    <string name="my_jazz_account">میرا JazzCash اکاؤنٹ</string>
+    <string name="account">اکاؤنٹ</string>
+    <string name="close">بند کریں</string>
+    <string name="bank_formats">درست اکاؤنٹ نمبر کی شکلیں</string>
+    <!-- endregion -->
+    <!--region transaction failed  -->
+    <string name="unable_to_process"> ہم آپ کی ادائیگی پر کارروائی کرنے سے قاصر ہیں دوبارہ کوشش کریں.</string>
+    <string name="amount_exceeds_error">The amount you sent exceeds recipient’s account limit.</string>
+    <string name="something_went_wrong">آپ کی ٹرانزیکشن مکمل نہیں ہو سکی</string>
+    <string name="not_sent">نہیں بھیجے گیے</string>
+    <string name="go_home">ہوم اسکرین پر جائیں</string>
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+    <string name="yes_cancel_transfer">ہاں ، منتقلی منسوخ کریں</string>
+    <string name="select_the_purpose_of_your"> رقم کی منتقلی کا مقصد کیا ہے؟</string>
+    <string name="looks_like_there_are_">اس کے لئے کوئی نتائج نہیں ہیں</string>
+    <string name="oh_no">ارے نہیں</string>
+    <string name="no_results">کوئی نتیجہ نہیں</string>
+    <string name="review_transaction_details">تفصیلات کا جائزہ لیں</string>
+    <string name="review_transfer_details">تفصیلات کا جائزہ لیں</string>
+    <string name="add_contacts"> اپنے کونٹیکٹ  یہاں شامل کریں</string>
+    <!--endregion-->
+    <!--region Transaction Success  -->
+    <string name="sent_to">وصول کنندہ</string>
+    <string name="an_sms_send_to_urdu"> کو ایک تصدیقی SMS بھیج دیا گیا ہے</string>
+    <string name="skip">چھوڑ دیں</string>
+    <string name="skip_events">سکپ</string>
+    <string name="add_amount_confirm_dialog_Amount_label">رقم</string>
+    <string name="an_sms_send_to">An SMS has been sent to %1$s</string>
+    <string name="enter_name_or_mobile">نمبر تلاش کریں یا نمبر درج کریں</string>
+    <!--endregion-->
+
+    <!--endregion-->
+
+    <!-- Account Limit Region -->
+    <string name="account_limit_title">اکاؤنٹ کی حد</string>
+    <string name="account_limit_subtitle">آپ کے اکاؤنٹ کی حدود</string>
+    <string name="daily_limits">روزانہ خرچ کرنے کی حد</string>
+    <string name="monthly_limits">ماہانہ خرچ کرنے کی حد</string>
+    <string name="yearly_limits">سالانہ خرچ کرنے کی حد</string>
+    <string name="sending_limits"> رقم بھیجنے کی حد</string>
+    <string name="receiving_limits">رقم وصول کرنے کی حد</string>
+    <string name="remaining_limits">بقایا حد</string>
+    <string name="basic_level">بنیادی اکاؤنٹ</string>
+    <string name="advanced_level">بایومیٹرک تصدیق شدہ اکاؤنٹ</string>
+    <string name="premium_level">پریمیم اکاونٹ</string>
+    <string name="account_level">اکاونٹ لیول</string>
+    <string name="upgrade">اپ گریڈ</string>
+    <string name="user_type">بیسک یوزر</string>
+
+
+    <!--region Account-->
+    <string name="account_language_title">زبان (اردو)</string>
+    <string name="_50_000_points">50,000 پوائنٹس</string>
+    <string name="points">پوائنٹس</string>
+    <string name="redeem">چھڑا</string>
+    <string name="new_mobile_number">نیا موبائل نمبر</string>
+    <string name="are_you_sure">کیا آپ کو یقین ہے؟</string>
+    <string name="cancel_payment_yes">جی، منسوخ کریں</string>
+
+    <string name="when_you_cancel"> جب آپ کسی منتقلی کو منسوخ کرتے ہیں تو ، منتقلی کی تفصیلات محفوظ نہیں ہوگی۔</string>
+    <string name="no_i_ll_continue">نہیں ، میں جاری رکھوں گا</string>
+    <string name="edit">ترمیم </string>
+    <string name="confirm_edit">تبدیل کریں</string>
+    <string name="cancel_editing_yes">جی، منسوخ کریں</string>
+    <string name="cancel_editing_changes_payment">کیا اپ اس ادائیگی کو یقینی طور پر منسوخ کرنا چاہتے ہیں؟</string>
+
+    <string name="cancel_editing_changes_wont_saved">آپ کے تمام ترامیم ضائع ہو جائیں گی.</string>
+    <string name="continue_for_remove_detail">آگے بڑھنے پر اس فون سے %1$s کی تفصیلات نکال دے جائے گی</string>
+
+    <string name="all_banks">تمام بینکوں</string>
+    <string name="digit_account_number">%1$s اکاؤنٹ نمبر ھندسوں میں</string>
+    <string name="phone">فون</string>
+    <string name="search_or_select_recipients_bank">درکار بینک منتخب کرین</string>
+    <string name="only_rs"><![CDATA[Rs.]]></string>
+    <string name="mpin">MPIN</string>
+    <string name="profile">پروفائل</string>
+    <string name="edit_email">تبدیل</string>
+    <string name="email">ای میل</string>
+    <string name="email_address">ای میل</string>
+    <string name="cards_linked_accounts">کارڈ اور منسلک اکاؤنٹس</string>
+    <string name="account_limits">اکاؤنٹ کی حد</string>
+    <string name="transaction_history">ٹرانزیکشن کی تإریخ</string>
+    <string name="statements">بیانات</string>
+    <string name="jazzcash_debit_card">JazzCash ڈیبٹ کارڈ</string>
+    <string name="view_your_cards">اپنے کارڈ دیکھیں</string>
+    <string name="payoneer_account">Payoneer اکاؤنٹ</string>
+    <string name="help_support">مدد اور معاونت</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="terms_conditions">شرائط و ضوابط</string>
+    <string name="rate_">JazzCash ایپ ریٹ کریں</string>
+    <string name="general">جنرل</string>
+    <string name="notifications">نوٹیفیکیشن</string>
+    <string name="preferences">ترجیحات</string>
+    <string name="delink_device"> ڈیوائس اکاونٹ سے منقطع کریں</string>
+    <string name="linked_cards_and_accounts">لنکڈ ڈیبٹ کارڈز</string>
+
+    <string name="change_mpin">MPIN تبدیل کریں</string>
+    <string name="security">سیکورٹی</string>
+    <string name="my_approvals">میرا منظوریاں</string>
+    <string name="confirm_your_new_mpin">نئے MPIN کی تصدیق کریں</string>
+    <string name="you_can_now_use_your_new_mpin_to_login_and_authorise_transactions">اب آپ اپنا نیا MPIN لاگ ان کرنے اور رقم بھیجنے کیلئے استعمال کر سکتے ہیں</string>
+    <string name="mpin_confirmed"> ایم پین تصدیق ہو گیا ہے</string>
+    <string name="account_num">اکاؤنٹ: </string>
+    <!--endregion-->
+    <string name="confirm_logout_message">کیا آپ لاگ آؤٹ کرنا چاہتے ہیں؟</string>
+    <string name="yes_sure">ہاں مجھے یقین ہے</string>
+    <string name="not_sure"> نہیں, جاری رکھیں </string>
+    <!--endregion-->
+
+    <!-- no contacts region -->
+    <string name="no_contacts">کوئی کونٹیکٹ نہیں</string>
+    <string name="link_contacts">اپنے کونٹیکٹس کو JazzCash کے ساتھ لنک کریں اور آسانی سے دوستوں اور عزیزوں کو پیسے بھیجیں</string>
+    <string name="no_contacts_on_device">Looks like there are no contacts added on your device</string>
+
+    <!--region Debit Card-->
+
+    <string name="jazzcash_debit_cards">JazzCash دیبٹ کارڈ</string>
+    <string name="card_management">کارڈ مینیج کریں</string>
+
+
+    <string name="exclusive_discounts">خصوصی ڈسکاونٹ</string>
+    <string name="atm_withdrawals">ATM سے پیسے نکلوائیں</string>
+    <string name="no_annual_fees">کوئی سالانہ فیس نہیں</string>
+
+    <string name="exclusive_discounts_desc">50000 سے زائد دکانوں پر باآسانی خریداری کریں
+اور اپنے JazzCash ڈیبٹ کارڈ کے استعمال پر بہت سے ڈسکاونٹ حاصل کریں</string>
+    <string name="atm_withdrawals_desc">ملک بھر میں 15000 سے زائد ATM مشینوں سے کبھی بھی پیسے نکلوایئں</string>
+    <string name="no_annual_fees_desc">کوئی سالانہ فیس نہیں
+ سالانہ فیس کی فکر سے آزاد ہو کر اپنے JazzCash دیبٹ کارڈ کو استعمال کریں۔</string>
+
+    <string name="ecommerce_activation">آن لائن خریداری</string>
+    <string name="manage_pin">کارڈ پن مینیج کریں</string>
+    <string name="block">کارڈ بلاک کریں</string>
+
+    <string name="card_stolen">میرا کارڈ چوری ہو چکا ہے</string>
+    <string name="select_blocking_reason">بلاک کرنے کی وجہ منتخب کریں</string>
+    <string name="new_card">مجھے ایک نئے کارڈ کی ضرورت ہے</string>
+    <string name="something_else">کوئی اور وجہ ہے</string>
+    <string name="confirm_card_blocking">واقعی کارڈ بلاک کر دیں؟</string>
+    <string name="permanently_blocked">کارڈ کو مستقل طور پر بلاک کردیا جائے گا</string>
+    <string name="card_blocked">کارڈ مستقل طور پر بلاک کر دیا گیا ہے</string>
+    <string name="card_blocked_notification">اب اس کارڈ کو کوئی بھی استعمال نہیں کر سکے گا</string>
+    <string name="return_to_jazz_home">JazzCash ھوم پر واپسی</string>
+    <string name="order_new_card">نیا کارڈ آرڈر کریں</string>
+    <string name="choose_card_to_order">آرڈر کرنے کے لئے ایک کارڈ کا انتخاب کریں</string>
+
+    <!-- Track Order Status -->
+
+    <string name="order_received">آرڈر موصول</string>
+    <string name="order_received_desc">ہمیں آپ کا آرڈر مل گیا ہے</string>
+    <string name="processed">پروسیسنگ</string>
+    <string name="processing_message">اس عمل میں کچھ دن لگ سکتے ہیں</string>
+    <string name="processed_desc">تمام تفصیلات پر عمل درآمد ہو گیا ہے</string>
+    <string name="dispatch">روانہ</string>
+    <string name="dispatch_desc">ہم آپ کا کارڈ روانہ کریں گے</string>
+    <string name="returned">واپسی</string>
+    <string name="returned_desc">اپنے کارڈ کو دوبارہ بھیجوانے کیلئے برائے مہربانی ہیلپ سنٹر پر کال کریں۔ \n کارڈ کورئیر سے واپس آ گیا۔.</string>
+    <string name="dispatch2">دوبارہ روانہ</string>
+    <string name="dispatch2_desc">کارڈ دوبارہ کورئیر کے ذریعے روانہ کیا گیا ہے</string>
+    <string name="will_dispatch_message">ہم آپ کا کارڈ روانہ کریں گے</string>
+    <string name="rejected">مسترد</string>
+    <string name="rejected_desc">نامکمل یا غلط معلومات کی وجہ سے آرڈر مسترد ہو گیا ہے</string>
+    <string name="discarded">ضائع </string>
+    <string name="discarded_desc">کارڈ کی درخواست ختم کردی گئی ہے</string>
+    <string name="returned2">دوبارہ واپسی</string>
+    <string name="returned2_desc">کارڈ کورئیر کی طرف سے دوبارہ واپس کر دیا گیا ہے</string>
+    <string name="order_id_title">%1$s:آرڈر ID</string>
+    <string name="set_card_pin_activate">کارڈ پن بنائیں اور ایکٹیویٹ کریں</string>
+    <string name="set_card_pin_activate_message">اپنے کارڈ کے لئے نیا پن بنائیں</string>
+    <string name="securely_sent_via"> _ کے ذریعہ بحفاظت ادائیگی کر دی گئی ہے</string>
+    <string name="please_try_again">دوبارہ کوشش کریں</string>
+    <string name="set_card_pin">کارڈ پن بنائیں</string>
+    <string name="lahore">لاہور</string>
+    <string name="mobilink_microfinance_bank">"موبی لنک مائیکروفنانس بینک</string>
+    <string name="recent">حالیہ</string>
+    <string name="expected_delivery_date">Expected Delivery Date: %1$s</string>
+
+    <string name="enter_card_expiry_title">Enter Card Expiry</string>
+    <string name="enter_card_expiry_subtitle">Verify card information before proceeding</string>
+    <string name="verify_card_expiry_title">Verify Card Expiry</string>
+    <string name="verify_card_expiry_subtitle">Enter expiry date of your card</string>
+    <string name="card_expiry_date">Expiry Date</string>
+    <string name="card_expiry_date_validator">Please enter the correct date</string>
+
+    <!-- Visa Pin creation -->
+    <string name="authorise_pin_creation">کارڈ پن کی تیاری کی تصدیق کریں</string>
+    <string name="visa_pin_4digits"> ہندسوں کا نیا کارڈ پن درج کریں</string>
+    <string name="confirm_pin_visa">4 ہندسوں کا نیا کارڈ پن دوبارہ درج کریں</string>
+    <string name="received_card">کیا آپ نے کارڈ وصول کر لیا ہے؟</string>
+    <string name="received_card_message">صرف اپنا کارڈ وصول کرنے کے بعد ھی اپنے کارڈ کی پن بنائیںd</string>
+    <string name="card_pin_created">کارڈ پن تیار کیا گیا</string>
+
+    <string name="current_pin_desc">4 ہندسوں کا موجودہ کارڈ پن درج کریں</string>
+    <string name="new_pin_desc">4 ہندسوں کا نیا کارڈ پن درج کریں</string>
+    <string name="confirm_new_pin_desc">4 ہندسوں کا نیا کارڈ پن دوبارہ درج کریں</string>
+
+    <string name="update_card_pin">کارڈ پن تبدیل کر دیں</string>
+
+    <string name="authorize_pin_creation">کارڈ پن کی تیاری کی تصدیق کریں</string>
+    <string name="authorize_pin_change">کارڈ پن کی تبدیلی کی تصدیق کریں</string>
+
+    <string name="confirm_transaction">ٹرانزیکشن کی تصدیق</string>
+    <!--endregion-->
+
+    <!-- region edit transaction data -->
+    <string name="update_values">اپ ڈیٹ</string>
+    <string name="edit_amount">رقم  کی ترمیم کریں</string>
+    <string name="edit_phone_no">فون نمبر تبدیل کریں</string>
+    <string name="edit_cnic_no">قومی شناختی کارڈ  نمبر تبدیل کریں</string>
+    <string name="edit_purpose">مقصد  تبدیل کریں</string>
+    <string name="edit_bank">بینک تبدیل کریں</string>
+    <string name="add_amount_edit">رقم</string>
+    <string name="add_cnic_edit">وصول کنندہ کا شناختی کارڈ نمبر</string>
+    <string name="add_bank_edit">بینک</string>
+    <string name="add_bank_no_edit"> بینک اکاؤنٹ نمبر</string>
+    <string name="latest_updates">تازہ ترین معلومات</string>
+    <string name="go_to_my_account">میرے اکاؤنٹ پر جائیں</string>
+    <string name="sorry">معذرت</string>
+    <string name="your_payoneer_is_not">آپکا Payoneer اکاؤنٹ ایکٹو نہیں ہے. براہ مہربانی Payoneer کسٹمر سروس سے رجو کریں</string>
+    <string name="okay">ٹھیک ہے</string>
+    <string name="request_failed">درخواست ناکام ہوگئی</string>
+
+    <!--    MPIN-->
+    <string name="send_mpin"> ایم پین بھیجیں </string>
+    <string name="reset_mpin">ری سیٹ ایم پین</string>
+    <string name="enter_your_cnic">اپنا شناختی کارڈ نمبر درج کریں</string>
+    <string name="enter_dob">اپنی تاریخ پیدائش درج کریں</string>
+    <string name="verification_txt">ان تفصیلات کی تصدیق کی جائے گی</string>
+    <string name="enter_phone">Enter your phone</string>
+    <string name="forgot_pin"> ایم پین بھول گئے ھیں؟</string>
+    <string name="forgot_pin_desc">کوئی مسلہ نہیں ھم ایم پین ری سیٹ کرنے میں آپ کی مدد کر سکتے ھیں آٓپ کو تصدیق کیلیے اپنا شناختی کارڈ نمبر اور تاریخ پیدائیش ہمیں بتانی ھے</string>
+    <string name="details_verified">تصدیق مکمل ہو گئی ھے</string>
+    <string name="details_desc">ہم آپ کو ایک عارضی ایم پین بھیجیں گےاپنا ایم پین بدلنے کیلئےعارضی ایم پین اگلی سکرین پر درج کریں</string>
+    <string name="confirm_temporary_pin">عارضی ایم پین کی تصدیق کریں.</string>
+    <string name="confirm_temporary_pin_desc">ہم آپ کو ایک عارضی ایم پین بھیجیں گے</string>
+    <string name="confirm_code_desc">We sent a code to </string>
+    <string name="confirmed_temporary_pin_desc">عارضی ایم پین تصدیق ہو گیا ہے</string>
+    <string name="confirmd_temporary_pin_desc">اپنا نیا ایم پین درج کریں</string>
+    <string name="create_new_mpin">نیا ایم پین بنائیں</string>
+    <string name="confirm_new_mpin">نئے ایم پین کی تصدیق کریں</string>
+    <string name="mpin_reset"> ایم پین ری سیٹ کر دی گئی ھے</string>
+    <string name="mpin_reset_desc">اب آپ اپنا نیا ایم پین لاگ ان کرنے اور رقم بھیجنے کیلئے استعمال کر سکتے ہیں</string>
+    <string name="help_text_mpin">اپنا ایم پین کبھی بھی کسی اور کو نہ بتائیں تاکہ آپکا اکاؤنٹ مہفوظ رہے</string>
+    <string name="resend">دوبارہ بھیجیں</string>
+    <string name="resend_code">دوبارہ بھیجیں</string>
+
+    <string name="are_you_sure_close_card_ordering">Are you sure you want to cancel the order</string>
+    <string name="no_continue">No, Continue</string>
+    <string name="yes_cancel_order">Yes, Cancel the Order</string>
+
+    <string name="enter_your_current_mpin">اپنا موجودہ ایم پین داخل کریں</string>
+    <string name="enter_your_new_mpin">اپنا نیا ایم پین درج کریں</string>
+    <string name="mpin_changed">ایم پین تبدیل کر دیا گیا ہے</string>
+
+    &lt;font color="#FFFFFF">Get Loan &lt;br /&gt; &lt;/font> Rs. %1$s
+    <string name="get_loan">%1$s &lt;font color="#FFFFFF">روپے قرض حاصل کریں &lt;br /&gt; &lt;/font></string>
+<!--    <string name="get_loan">%1$s روپے قرض حاصل کریں</string>-->
+    <string name="get_loan_coach">500 روپے قرض حاصل کریں</string>
+    <string name="get_loan_split">10،000 روپے قرض \nحاصل کریں</string>
+    <string name="trending_searches">مشہور سرچ کردہ جیزیں</string>
+    <string name="no_result_found_for">آپکی سرچ کے کوئی نتائج نہیں مل سکے. براہ مہربانی مختلف الفاظ سرچ کریں</string>
+
+    <!-- Payoneer region -->
+    <string name="payoneer_title">پایونیر</string>
+    <string name="link_payoneer_account">لنک اکاؤنٹ</string>
+    <string name="new_payoneer">نیا Payoneer اکاؤنٹ</string>
+    <string name="payoneer_account_condition">میرے Payoneer اکاؤنٹ کے ساتھ نتھی کرنے کی طرف سے. میں رسائی Payoneer ڈیٹا تک JazzCash اجازت دینے سے اتفاق کرتا ہوں اور ہدایات، جس میں اس رضامندی کے فریم ورک کے تحت فراہم کر سکتے theto کے مطابق میری Payoneer میزانیہ ڈیبٹ</string>
+    <string name="account_creation">اکاؤنٹ بنائیں</string>
+    <string name="account_creation_message">اپنا Payoneer اکاؤنٹ رجسٹرکریں JazzCash کے ذریعے بنا کسی بینک اکاؤنٹ کی ضرورت کے۔</string>
+    <string name="account_linking">اکاؤنٹ لنکنگ</string>
+    <string name="account_linking_message">JazzCash کے ساتھ آپ کے پاس پہلے سے ہی موجودہ Payoneer اکاؤنٹ کے لنک کریں</string>
+    <string name="funds_transfer">رقم کی منتقلی</string>
+    <string name="funds_transfer_message">فوری طور پر فنڈز کی Payoneer سے JazzCash پر منتقلی</string>
+    <string name="application_submitted">درخواست جمع ہو گئی ہے</string>
+    <string name="approved_message">آپ کا اکاؤنٹ کھلنے کے بعد ہم آپ کواطلاع دین گے تاکہ آپ ۱ن  سہولیات سے مستفید ھون</string>
+    <string name="go_to_jazz_cash">  JazzCash پے جائیں</string>
+    <string name="get_started">شروع کریں</string>
+    <string name="enter_your_mobile_number">اپنا موبائل نمبر درج کریں</string>
+
+    <string name="delink">اکاوؑنٹ منقطع کریں</string>
+    <string name="are_you_sure_you_want_to_delink_your_payoneer_account_from_jazzcash">کیا آپ اپنا  Payoneer اکاؤنٹ JazzCash سے منقطع کرنا چاہتے ہین؟</string>
+    <string name="no_go_back">نہیں، واپس جایئے</string>
+    <string name="yes_delink">جی ہاں، منقطع کر دیں</string>
+    <string name="no_go_back_small">نہیں، واپس جایئے</string>
+    <string name="congratulations">مبارک ہو</string>
+    <string name="delink_account">اکاوؑنٹ منقطع کریں</string>
+    <string name="you_have_successfully_delinked_your_payoneer_account_from_jazzcash">آپ کا Payoneer اکاؤنٹ JazzCash سے منقطع کر دیا گیا ہے۔</string>
+    <string name="transfer_funds">رقم کی منتقلی</string>
+    <string name="payoneer_balance">Payoneer بیلنس</string>
+    <string name="enter_amount_to_transfer">بھیجنے کے لئے رقم درج کریں</string>
+    <string name="select_an_option">آپشن  کو منتخب کریں</string>
+    <string name="payo_account_settings">اکاوؑنٹ سیٹنگز</string>
+    <string name="transfer">منتقل کریں</string>
+    <string name="payoneer_linked">آپ کا Payoneer اکاؤنٹ JazzCash سے منسلک کر دیا گیا ہے۔</string>
+    <string name="confirm_your_home_address_for_delivery">ڈلیوری کے لئے اپنے پتے کی تصدیق کریں</string>
+    <string name="city">شہر</string>
+    <string name="city_placeholder">ایک آپشن منتخب کریں</string>
+    <string name="area">علاقہ</string>
+    <string name="area_placeholder">مثلاً جوہر ٹاؤن</string>
+    <string name="street_address">مکان ۔ گلی نمبر</string>
+    <string name="card_order_street_address">گلی کا پتہ</string>
+    <string name="street_address_placeholder">مکان اور گلی نمبر</string>
+    <string name="nearest_landmark">قریبی مشہور مقام</string>
+    <string name="nearest_landmark_placeholder">مثلاً فیصل مسجدFaisal Masjid</string>
+    <string name="review_order">آرڈر کا جائزہ لیں</string>
+    <string name="review_card_order">کارڈ آرڈر کا جائزہ لیں</string>
+    <string name="nearest">قریب ترین</string>
+    <string name="search_branch_by_city">شہر کے لحاظ سے برانچ سرچ کریں</string>
+    <string name="my_pending_orders">پینڈنگ آرڈر </string>
+
+    <string name="name">نام</string>
+    <string name="how_to_receive">آپ اپنا کارڈ کیسے وصول کرنا چاہتے ہیں</string>
+    <string name="personal_address">ڈاک کے ذریعے منگوائیں</string>
+    <string name="card_delivered">اپنا کارڈ اپنے گھر یا دفتر کے پتے پر منگوائیں</string>
+    <string name="mmbl_branch">آپنی قریبی MMBL برانچ سے کارڈ وصول کریں</string>
+    <string name="mmbl">موبی لنک مائیکروفنانس بینک</string>
+    <string name="enable_location">اپنے مقام/ لوکیشن کی رسائی کی اجازت دیں</string>
+    <string name="enable_location_events">لوکیشن کی رسائی کی اجازت دیں</string>
+    <string name="we_can_help">ھم آپ کے موجودہ مقام کی جگہ خودکار طریقے سے حاصل کر سکتے ہیں۔ یا آپ اپنا پتہ خود بھی درج کر سکتے ہیں</string>
+    <string name="we_can_help_branches">We can help you find your nearest branch for the pickup of your debit card. Or you can chose to select any branch manually.</string>
+    <string name="use_my_current_location">میری موجودہ لوکیشن استعمال کریں</string>
+    <string name="use_a_different_location">مختلف پتہ استعمال کریں</string>
+    <string name="authorise_card_ordering">کارڈ آڈد مکمل کریں</string>
+    <string name="order_placed">آرڈر مکمل ہو گیا ہے-</string>
+    <string name="receive_card_soon">آپ کا کارڈ جلد آپ کو مل جائے گاا</string>
+    <string name="track_order">اپنے آرڈر کا پتہ لگائیں</string>
+
+    <string name="date_format">DD/MM/YYYY</string>
+    <string name="dob">DOB</string>
+    <string name="ok">Okay</string>
+    <string name="timer">2:00</string>
+    <string name="next">آگے</string>
+    <string name="continue_button">جاری رکھیں</string>
+    <string name="phone_hint">03127654321</string>
+    <string name="back">واپس</string>
+    <string name="on_boarding_desc_1">Send money to friends and family</string>
+    <string name="otp_hint">OTP درج کریں</string>
+    <string name="sent_code_to">ہم نے %1$s پر ایک OTP کوڈ بھیجا ہے</string>
+    <string name="account_registration">اکاؤنٹ کی رجسٹریشن</string>
+    <string name="full_name">پورا نام</string>
+    <string name="email_address_optional">ای میل ایڈریس (اختیاری)</string>
+    <string name="email_hint">اپنا ای میل درج کریں</string>
+    <string name="cnic_number">شناختی کارڈ نمبر</string>
+    <string name="cnic_number_hint">اپنا ای شناختی کارڈ نمبر درج کریں</string>
+    <string name="cnic_date_of_issue">شناختی کارڈ کی تاریخ اجراء</string>
+    <string name="cnic_date_of_issue_hint">شناختی کارڈ کی تاریخ اجراء درج کریں</string>
+    <string name="what_is_cnic_date_of_issue">What is CNIC Date of issue?</string>
+    <string name="where_to_find_cnic_date_of_issue">شناختی کارڈ کی تاریخ اجراء کہاں ہوتی ہے؟</string>
+    <string name="smart_cnic_format">نیا سمارٹ شناختی کارڈ</string>
+    <string name="old_cnic_format">پرانا اردو شناختی کارڈ</string>
+    <string name="registration_tos">terms and conditions (“Terms”) the word “Bank” or “MMBL” shall refer to Mobilink Microfinance Bank Limited, its successors-in-interest and assigns: \nTerms following hereunder form the contract between the Branchless Banking Account holders (hereinafter referred to as “Customer”) and MMBL for opening and operation of Branchless Banking Account (“Account”) and utilization of all the branchless banking services through the channels (including but not limited to MMBL assigned Agents throughout the country, any MMBL Branch in the country, Mobile, Internet, ATM,) as may be provided by the Bank, from time to time (“Services”). Customer is responsible for providing Bank with correct information and instructions when making payments to beneficiaries. Bank shall not be liable for any loss or damage occurring due to customer’s error, in making incorrect /unintended payments. Customer is responsible for providing Bank with correct information and instructions when making For the purpose of the terms and conditions (“Terms”) the word “Bank” or “MMBL” shall refer to Mobilink Microfinance Bank Limited, its successors-in-interest and assigns: Terms following hereunder form the contract between the Branchless Banking Account holders (hereinafter referred to as “Customer”) and MMBL for opening and operation of Branchless Banking Account (“Account”) and utilization of all the branchless banking services through the channels (including but not limited to MMBL assigned Agents throughout the country, any MMBL Branch in the country, Mobile, Internet, ATM,) as may be provided by the Bank, from time to time (“Services”). Customer is responsible for providing Bank with correct information and instructions when making payments to beneficiaries. Bank shall not be liable for any loss or damage occurring due to customer’s error, in making incorrect /unintended payments. Customer is responsible for providing Bank with correct information and instructions when making</string>
+    <string name="create_mpin">MPIN بنائیں</string>
+    <string name="enter_your_4_digit_mpin">اپنا 4 هنسوں پر مشتمل mpin درج کریں</string>
+    <string name="alert_mpin_share">ترتیب سے یا ایک ھی ہندسے پر مشتمل MPIN بنانے سے پرہیز کریں</string>
+    <string name="confirm_mpin">Confirm MPIN</string>
+    <string name="enter_4_digit_mpin_again"> اپنا 4 ہندسون پر مشتمل MPIN دوبارہ درج کریں</string>
+    <string name="mpin_mismatch">آپ کی درج کردہ دونوں MPIN فرق ہیں</string>
+    <string name="biometric_verification">بایومیٹرک تصدیق</string>
+    <string name="no_registration_fee">اپ گریڈ کرنے کی کوئی فیس نہیں</string>
+    <string name="remind_me_later">بعد میں یاد کروائیں</string>
+    <string name="cash_deposit_and_withdrawals">نقد رقم جمع کرائیں اور نکلوائیں</string>
+    <string name="cash_deposit_and_withdrawals_description">پاکستان بھر میں آسانی سے نقد رقم جمع کرائیں اور نکلوائیں</string>
+    <string name="higher_transaction_limits">بہتر ٹرانزیکشن کی حدود</string>
+    <string name="high_trans_description">دو لاکھ ماہانہ تک کی ٹرانزیکشن حدود سے فائدہ اٹھائیں</string>
+    <string name="biometric_verification_guide">"ہاتھ فون کے پیچھلے کیمرے کے آگے رکھیں, اور انگلیاں ایک دوسرے کے ساتھ رکھیں."</string>
+    <string name="mother_maiden_name">اپنی والدہ کا نام منتخب کریں</string>
+    <string name="account_verification">اکاؤنٹ کی تصدیق</string>
+    <string name="select_your_place_of_birth"> اپنی پیدائش کی جگہ منتخب کریں</string>
+    <string name="report_this_issue"> اس مسئلے کی اطلاع کریں</string>
+    <string name="type_your_issue">مسلہ درج کریں...</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="cnic_scan_failed">We\’re unable to scan Information from your CNIC</string>
+    <string name="enter_details_manually">تفصیلات خود درج کریں</string>
+    <string name="yes_continue">جی ہاں، جاری رکھیں</string>
+    <string name="thank_you">آپ کا شکریہ!</string>
+    <string name="thank_you_note">ہم نے آپ کے تجاویز نوٹ کر لی ہے. ہم آپ کو مطالع کر دیں گے جب یہ ای واؤچرJazzCash پر دستیاب ہوگا.</string>
+
+    <string name="retake">دوبارہ کھینچیں</string>
+    <string name="scan_cnic">شناختی کارڈ سکین کریں</string>
+    <string name="take_a_picture_of_your_cnic"> شناختئ کارڈ کی اگلی اور پچھلی سایڈ کی فوٹو کھینچیں</string>
+    <string name="personal_photo">پرسنل فوٹو</string>
+    <string name="upload_your_selfie">ایک سلفی کھینچیں</string>
+    <string name="please_upload_following">درج ذیل دستاویزات اپ لوڈ کریں:</string>
+    <string name="cnic_front_scan_guide">شناختی کارڈ کی اگلی سایڈ کوکیمرہ فریم میں رکھ کے سکین کریں</string>
+    <string name="cnic_back">CNIC back</string>
+    <string name="front">اگلی سایڈ</string>
+    <string name="cnic_back_scan_guide">شناختی کارڈ کی پچھلی سایڈ کو کیمرہ فریم میں رکھ کے سکین کریں</string>
+    <string name="uploaded">اپ لوڈ ہو گیا</string>
+
+    <string name="name_to_Display">کارڈ پر درج نام</string>
+    <string name="deliver_to">کارڈ پر درج نام</string>
+    <string name="referral">ریفرل (اختیاری)</string>
+    <string name="card_fee_2">کارڈ کی فیس</string>
+    <string name="visa">ویزا</string>
+    <string name="add_referral_phone">ریفرل نمبر شامل کریں.</string>
+    <string name="dummy_card">7812 XXXX XXXX XXXX</string>
+    <string name="dummy_name">HASEEB DANYAL</string>
+    <string name="place_order_again">دوبارہ آرڈر کریں</string>
+    <string name="confirm_order">آرڈر کی تصدیق کریں</string>
+    <string name="edit_card_referrer">بحوالہ ترمیم کریں</string>
+
+    <string name="name_limit">/19</string>
+    <string name="pin_mismatch">T درج کیے گئے PIN ایک جیسے نہیں ہیں</string>
+
+    <string name="order_jazzcash_card">ڈئبٹ کارڈ آرڈر کریں</string>
+    <string name="order_new_debit_card">نیا کارڈ آرڈر کریں</string>
+    <string name="enter_name">کارڈ پر ظاہر ہونے کے لئے پورا نام درج کریں</string>
+    <string name="select_delivery_options">ڈیلیوری کے لیے آپشن منتخب کریں</string>
+    <string name="paypak_card_selected">PayPak ڈیبٹ کارڈ منتخب کیا گیا ہے </string>
+    <string name="mastercard_card_selected">ماسٹر کارڈ ڈیبٹ کارڈ</string>
+    <string name="order_now">ابھی آرڈر کریں</string>
+    <string name="select_delivery_location">ڈیلیوری کے لیے آپشن منتخب کریں</string>
+
+    <string name="set_pin">کارڈ پن بنائیں اور ایکٹیویٹ کریں</string>
+    <string name="select_mmbl"> ایک MMBL برانچ منتخب کریں</string>
+
+    <string name="mobile">موبائل</string>
+    <string name="cnic">شناختی کارڈ</string>
+    <string name="bank">بینک</string>
+
+    <string name="edit_card_type">کارڈ کی قسم میں ترمیم کریں</string>
+    <string name="edit_name">کارڈ پر نام  میں ترمیم کریں</string>
+    <string name="edit_email_ordering">ای میل میں ترمیم کریں</string>
+    <string name="edit_refferal">حوالہ نمبر میں ترمیم کریں </string>
+    <string name="edit_refferal_desc">حوالہ نمبر مہیا کرنا لازمی نہیں ہے۔</string>
+    <string name="edit_delivery">ترسیل کی تفصیلات میں ترمیم کریں</string>
+
+    <string name="delivery_mode">ترسیل کا طریقہ</string>
+    <string name="branch">برانچ</string>
+    <string name="change_card_pin">کارڈ پن تبدیل کریں</string>
+    <string name="manage_card_pin">کارڈ پن مینیج کریں</string>
+    <string name="visa_total">واجب الدا رقم</string>
+
+    <string name="confirm_transfer">منتقلی کی تصدیق کریں</string>
+    <string name="account_delinked">اکاؤنٹ ڈیلینکیڈ</string>
+    <string name="transfer_to_jazzcash">JazzCash میں بھیجیں</string>
+
+    <!--    mark fav-->
+    <string name="str_save">محفوظ کریں</string>
+    <string name="str_add_icon">نئی سروس شامل کرنے سے پہلے کوئی موجودہ سروس ہٹائیں</string>
+    <string name="str_add_top_4_services">اپنی پسندیدہ چار سروس شامل کریں</string>
+
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="fetch_details">Fetch Details</string>
+    <string name="amount">رقم</string>
+    <string name="review_details">تفصیلات کا جائزہ لیں</string>
+    <string name="search_institution_hint">آپشن منتخب کریں</string>
+    <string name="university_fee">یونیورسٹی فیس</string>
+    <string name="college_fee">کالج فیس</string>
+    <string name="entry_test_fee">انٹری ٹیسٹ فیس</string>
+    <string name="coaching_fee">کوچنگ فیس</string>
+    <string name="enter">Enter</string>
+    <string name="corporate_payments">کارپوریٹ ادائیگی</string>
+    <string name="search_or_select_employee">Search or Select Employee</string>
+    <string name="find_consumer_id_on_fee_slip">Find consumer ID on fee slip</string>
+    <string name="challan">چالان</string>
+    <string name="search_or_select_challan">چالان تلاش کریں یا منتخب کریں</string>
+    <string name="search_traffic_challan">آپشن منتخب کریں</string>
+
+    <string name="taxes">Taxes</string>
+    <string name="this_number_should_be_value">یہ نمبر %1s ہندسوں کا ہونا چاہئے</string>
+    <string name="please_enter">"Please enter "</string>
+    <string name="loan_repayment">لون کی ادائیگی</string>
+    <string name="search_or_select_foundation_bank">بینک / فاؤنڈیشن کو منتخب کریں یا تلاش کریں</string>
+    <string name="your_loan_number_issued">Your Loan number is issued by</string>
+    <string name="search_institution_placeholder">ادارہ تلاش کریں یا منتخب کریں</string>
+    <string name="search_employee">Search Employee</string>
+    <string name="by_linking_my_payoneer">اPINا  پایونیر اکاؤنٹ JazzCash کے ساتھ لنک کرنے پر آپ تمام شرائط و ضوابط تسلیم کرتے ہیں</string>
+    <string name="linkAccount">موجودہ اکاؤنٹ لنک کریں</string>
+    <string name="new_payoneer_account">نیا پایونیر اکاؤنٹ</string>
+    <string name="on_boardingpay_desc_">کسی بھی بینک اکاؤنٹ کی ضرورت کے بغیر JazzCash کے ذریعے اپنا پایونیر اکاؤنٹ رجسٹر کریں.</string>
+    <string name="on_boardingpay_desc_2">موجودہ پایونیراکاوٴنٹ JazzCash کے ساتھ لنک کریں</string>
+    <string name="on_boardingpay_desc_3">پایونیر سے JazzCash میں رقم منتقل کریں</string>
+    <string name="goToJazzCash"> JazzCash پے جائیں</string>
+    <string name="Congratulations">مبارک ہو</string>
+    <string name="your_payment_account_has_been">آپ کا پایونیر اکاؤنٹ بن گیا ہے۔ براہ مہربانی اکاؤنٹ کو JazzCash کے ساتھ لنک کریں۔</string>
+    <string name="scan_cnic_to_automatic_fetch">خود کار طریقے سے تفصیلات حاصل کرنے کیلئے شناختی کارڈ سکین کریں</string>
+    <string name="enter_data_manually">تفصیلات خود درج کریں</string>
+    <string name="seems_facing_issue">ایسا لگتا ہے کہ آپ کو  آکاونٹ بنانے میں کوئی مسئلہ درپیش آ رھا ہے</string>
+    <string name="seems_facing_issue_description">ہمیں اکاؤنٹ بنانے میں  آپکی مدد کرنے کے لئے آپکے شناختی کارڈ کی تصویر اور آپکی سیلفی کی ضرورت ہو گی</string>
+    <string name="was_this_you">کیا یہ آپ ہیں؟</string>
+    <string name="some_attempt">کسی نے آپ کے اکاؤنٹ میں لاگ ان کرنے کی کوشش کی ہے.اگر یہ آپ نہیں ہیں تو یہ مسئلہ فوری رپورٹ کریں</string>
+    <string name="ignore">اگنور کریں</string>
+    <string name="issue_submitted">مسئلہ سبمٹ ہو گیا ہے</string>
+    <string name="issue_submitted_message">رپورٹ کرنے کا شکریہ, ہم اس مسلئہ کا جائزہ کر کے اس پر ضروری اقدامات کریں گے</string>
+    <string name="school_fee">اسکول فیس</string>
+    <string name="enter_dates_to_generate">Enter dates to generate</string>
+    <string name="email_statement">Email statement</string>
+    <string name="confirm_email">Confirm E-mail ID</string>
+    <string name="change_email">Change Email ID</string>
+    <string name="sub_email_msg">sheets@gmail.com</string>
+    <string name="add_your_email">Add your email</string>
+    <string name="add_email_msg">In order to receive your statement, you need to add an email address to your account</string>
+    <string name="add_email_send">Add Email Address</string>
+    <string name="enter_11_digit_recipient_number">وصول کنندہ کے 11 ہندسوں کا موبائل نمبر درج کریں</string>
+    <string name="bill_fetched_successfully">ل کامیابی سے منگوا لیا گیا ہے</string>
+    <string name="reference_id">حوالہ ID:</string>
+    <string name="failure_detail_message">"Looks like something went wrong. Please try again or contact us for support. "</string>
+    <string name="total_earnings">کل کمائی</string>
+    <string name="invite_friends">دوستوں کو دعوت دیں</string>
+    <string name="account_registration_settings">Account registration and Settings</string>
+    <string name="show_me_hints">تھوڑی معلومات دکھایں</string>
+    <string name="start_app_tour">ایپ ٹور شروع کریں</string>
+    <string name="show_hints">معلومات دکھایں</string>
+    <string name="call_help_center">کال ہیلپ سینٹر</string>
+    <string name="account_safety_tips">اکاؤنٹ کی حفاظت ک نکات</string>
+    <string name="email_support">ای میل سپورٹ</string>
+
+    <string name="hint_question">کیا آپ ٹور کرنا چاہتے ہیں؟</string>
+
+    <string name="scan_qr">جاز کیش بزنس کیو آر کوڈ کو اسکین کرنے اور ادا کرنے کیلئے کیمرا استعمال کریں</string>
+    <string name="enter_amount_pay">تنخواہ کے رقم درج کریں</string>
+    <string name="merchant_name">Doodh Wala</string>
+    <string name="merchant_code">11223344</string>
+    <string name="max_amount">آپ کی ڈیلی ڈیبٹ کی حد .Rs ہے </string>
+    <string name="qr_payment">QR  کی ادائیگی</string>
+    <string name="enter_amount_pay_to">ادائیگی کے لیے رقم درج کریں</string>
+    <string name="edit_amount_to_pay">ادا کرنے کی رقم میں ترمیم کریں</string>
+    <string name="enter_id_pay_to">Till ID درج کریں</string>
+    <string name="edit_tip_amount">Edit Tip Amount</string>
+    <string name="schedule_of_charges">چارجز کا شیڈول</string>
+    <string name="tos">شرائط و ضوابط</string>
+    <string name="click_on_title">تفصیلات دیکھنے کے لئے عنوان پر کلک کریں</string>
+
+    <!--    <string name="enter_amount">Enter Amount</string>-->
+    <string name="pay_now">ابھی ادا کریں</string>
+    <string name="total_amount"> قابل ادائیگی رقم</string>
+    <string name="recipient">وصول کنندہ</string>
+    <string name="review_transactio">payment کا جائزہ لیں</string>
+    <string name="till_id_description">بزنس کی طرف سے فراہم کی گئی TILL ID درج کریں</string>
+    <string name="till_id_help">کاروبار TILL ID کہاں ہے؟</string>
+    <string name="merchabt_details_fetched">مرچنٹ کی تفصیلات مل گئی ہیں</string>
+    <string name="business_id">کاروباری شناخت: </string>
+    <string name="scan_qr_fail">ایسا لگتا ہے جیسے کچھ غلط ہو گیا ہے۔ براہ کرم دوبارہ کوشش کریں یا مدد کے لئے ہم سے رابطہ کریں۔</string>
+    <string name="scan_qr_fail_title">کیو آر ادائیگی ناکام</string>
+    <string name="recent_scans">حالیہ سکین</string>
+    <string name="transaction_success">ٹرانزیکشن کامیاب</string>
+    <string name="sample_date">On August 22, 2020 at 11:50</string>
+    <string name="on">پر</string>
+    <string name="at">پر</string>
+
+    <!-- Confirm Transaction Fonepay -->
+    <string name="tip_amount_title">ٹیپ رقم درج کریں</string>
+    <string name="tip_amount_missing">کوئی ٹپ شامل نہیں کی گئی</string>
+    <string name="convenience_fee_percentage_title">%1$s سہولت کی فیس</string>
+    <string name="convenience_fee_title">سہولت کی فیس</string>
+
+    <string name="amount_paid">رقم ادا کر دی</string>
+    <string name="no_scans">ایسا لگتا ہے کہ آپ کے یہاں کوئی حالیہ اسکین نہیں ہے</string>
+    <string name="qr_transaction">اپنے فون سے کسی QR کوڈ کو اسکین کرکے محض QR ٹرانزیکشن کریں</string>
+    <string name="scan_error">کیو آر کوڈ کو اسکین کرنے کی کوشش کرتے وقت کچھ غلط ہو گیا۔ براہ کرم چند لمحوں میں دوبارہ کوشش کریں۔</string>
+    <string name="enable_camera">کیمرہ کو فعال کریں</string>
+    <string name="enable_camera_access">کیمرے تک رسائی کو فعال کریں</string>
+    <string name="enable_cam_desc">انتہائی تیز ادائیگیوں میں صرف ایک اجازت باقی ہے۔ جازکیش کو اپنے فون کیمرا استعمال کرنے اور کیو آر کوڈز کی اسکیننگ شروع کرنے کی اجازت دیں</string>
+    <string name="complete_signin">سائن ان مکمل کریں</string>
+    <string name="indicator_icon">اشارے کی تصویر</string>
+    <string name="chat">چیٹ</string>
+    <string name="charges_apply">چارجز کا اطلاق ہوسکتا ہے</string>
+    <string name="user_will_be_charged">صارفین سے فی کال 2.50 + ٹیکس وصول کیا جائے گا</string>
+    <string name="search_topic_question">عنوان یا سوال کی تلاش کریں</string>
+    <string name="media_play">چلائیں</string>
+    <string name="media_pause">توقف</string>
+    <string name="media_rewind">رائیونڈ</string>
+    <string name="media_forward">آگے</string>
+    <string name="media_start">"شروع "</string>
+    <string name="media_end">ختم</string>
+    <string name="image">تصویر</string>
+    <string name="search_question">سوال تلاش کریں</string>
+    <string name="search_faq">سوالات تلاش کریں</string>
+    <string name="search_results_0"> تلاش کے نتائج 0</string>
+    <string name="there_r_no_results_for">"%1$s" کیلئے کوئی نتائج نہیں ہیں اپنی ہجے چیک کریں ، مختلف مطلوبہ الفاظ آزمائیں یا مدد کے لئے ہم سے رابطہ کریں</string>
+    <string name="not_you">Not You?</string>
+    <string name="manage_profile_data">اکاؤنٹ کو منظم کرنے کلے کلک کرے.</string>
+    <string name="next_small">آگے</string>
+    <string name="add_money_coach_detail">اپنے جازکیش اکاؤنٹ میں رقم شامل کرنے کے لئے اختیارات کی کھوج کریں اور فوری جمع کرنے ک لیے  اپنے ڈیبٹ کارڈوں سے لنک کریں.</string>
+    <string name="link_card">لنک کارڈ</string>
+    <string name="personalize_jazzcash">جازکیش کو اپنے مطابق بناے</string>
+    <string name="personalize_jazzcash_coach_detail">ہوم سکرین پر اپنی پسند کی سروسز رکھنے ک لئے کلک کرے.</string>
+    <string name="explore_all_services">تمام خدمات دریافت کریں</string>
+    <string name="explore_all_services_coach_details">تمام جازکیش خدمات کو دیکھنے کے لئے سوائپ اپ کریں</string>
+    <string name="notifications_and_promotions">اطلاعات اور پروموشنز</string>
+    <string name="select_notifications_to_delete">نوٹیفکیشن کو ڈیلیٹ کرنے کے لئے منتخب کریں.</string>
+    <string name="notifications_and_promotions_coach_data">اطلاعات اور پروموشنز کو مینیج کرنے ک لیے بیل آئیکن پہ کلک کرے</string>
+    <string name="instant_integration">فوری رجسٹریشن</string>
+    <string name="instant_integration_coach_data">اپنے اکاؤنٹ کو جاز کیش ایپ پر چند قدموں میں رجسٹر کریں اور سائن اپ ایوارڈ سے فائدہ <اٹھائیں></اٹھائیں></string>
+    <string name="ready_cash">تیار نقد</string>
+    <string name="ready_cash_coach_data">اپنے فنڈ کی منتقلی اور ادائیگیوں کے انتظام کیلئے فوری قرضے حاصل کریں</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="login_to_jazzcash">جاز کیش میں لاگ ان کریں</string>
+    <string name="login_to_jazzcash_coach_data">اپنے اکاؤنٹ ، فنڈ کی منتقلی اور ادائیگیوں کا نظم کرنے کے لئے لاگ ان کریں۔</string>
+    <string name="change_mpin_coach_details">اپنا MPIN تبدیل کرنے کے لئے کلک.</string>
+    <string name="agents_nearby_coach_details">قریبی ایجنٹس کو دیکھنے کیلئے سوائپ اپ کریں۔</string>
+    <string name="account_upgrade">اکاؤنٹ اپ گریڈ</string>
+    <string name="account_upgrade_coach_data">اپنے اکاؤنٹ کی ٹرانسیشن کے مدت بڑھانے کیلئے اسے دبائے</string>
+    <string name="details_verification">Details Verification</string>
+
+    <string name="deposit_via_debit_card">ڈیبٹ کارڈ کے ذریعے ڈیپازٹ</string>
+    <string name="enter_donation_amount">رقم درج کریں</string>
+    <string name="you_can_deposit"> رقم جمع کروانے کی حد  ہے</string>
+    <string name="add_your_debit_card">اپنا ڈیبٹ کارڈ شامل کریں</string>
+    <string name="scan_your_debit_card_automatically">خود کار طریقے سے اپنے  کارڈ کی تفصیلات  حاصل کرنے کیلئے اپنا  ڈیبٹ کارڈ سکین کریں.</string>
+    <string name="enter_detail_manually"> تفصیلات  خود درج کریں</string>
+    <string name="scan_card">سکین کارڈ</string>
+    <string name="card_number">کارڈ نمبر</string>
+    <string name="card_expiry">کارڈ ایکسپائری کی تاریخ</string>
+    <string name="save_my_card_information_securely">میرے کارڈ کی معلومات کو محفوظ کریں</string>
+    <string name="debit_card_note_text">نوٹ: آپ کا ڈیبٹ کارڈ ایک وقت میں زیادہ سے زیادہ s$1% JazzCash اکاؤنٹس کے ساتھ منسلک کیا جا سکتا ہے. صرف 3D سکیور مقامی بینک کا ڈیبٹ کارڈز JazzCash اکاؤنٹس سے منسلک کیا جا سکتے ہیں.</string>
+    <string name="note_colon">نوٹ:</string>
+    <string name="note">نوٹ</string>
+    <string name="enter_your_card_details">اپنے کارڈ کی تفصیلات درج کریں</string>
+    <string name="scan_card_guide">مقررہ حصہ میں اپنے ڈیبٹ کارڈ کی سیدھی طرف رکھیں</string>
+    <string name="amount_deposited">رقم جمع ہوگئی</string>
+    <string name="you_deposited_money_to_your_account">آپ نے کامیابی سے اپنے جازکیش اکاؤنٹ میں رقم جمع کروائی ہے۔</string>
+    <string name="add_another_debit_card">دوسرا ڈیبٹ کارڈ شامل کریں</string>
+    <string name="add_payoneer_account">ایک Payoneer اکاؤنٹ شامل کریں</string>
+    <string name="my_saved_cards">میرے محفوظ کارڈز</string>
+    <string name="linked_debit_cards_label">لنکڈ ڈیبٹ کارڈز</string>
+    <string name="debit_card_note_text_shot">آپ کے ڈیبٹ کارڈ کو بیک وقت  </string>
+    <string name="debit_card_note_text_shot2">سے زیادہ جازکیش اکاؤنٹس کے ساتھ لنک نہیں کیا جاسکتا۔ </string>
+    <string name="debit_cards">ڈیبٹ کارڈز</string>
+    <string name="linked_cards_accounts">لنک کارڈز اور اکاؤنٹس</string>
+    <string name="manage_your_cards_and_accounts">اپنے منسلک کارڈز اور اکاؤنٹس کو manage کریں</string>
+    <string name="get_ready_cash">حاصل کریں ReadyCash</string>
+    <string name="deposit_at_doorstep">گھر بیٹھے ڈپازٹ کروائیں</string>
+    <string name="deposit_via_bank">بینک کے ذریعے ڈیپازٹ</string>
+    <string name="deposit_via_jazzcash_agent"> ایجنٹ ذریعے  JazzCash</string>
+    <string name="card_will_be_permanently_removed">آپ کا کارڈ مستقل طور پر جازکیش سے ہٹ جائے گا</string>
+    <string name="str_yes_remove">ہاں ، ہٹائیں</string>
+    <string name="to_manage_account">اکاؤنٹ مینیج کرنا</string>
+    <string name="to_money_transfer">رقم منتقل کرنا</string>
+    <string name="to_make_payments">ادائیگی کرنا</string>
+    <string name="to_check_rewards">انعامات چیک کرنے کے لئے</string>
+    <string name="str_agents_nearby">قریبی ایجنٹ</string>
+    <string name="str_agents_nearby_desc">تفصیلات دیکھنے کیلئے پن پر کلک کریں</string>
+    <string name="str_search_option">سرچ آپشنز</string>
+    <string name="str_bio_agents">بایومیٹرک ایجنٹس</string>
+    <string name="str_bio_agents_desc">بائیو میٹرک تصدیق کیلئے ایجنٹ</string>
+    <string name="str_cash_agents">کیش ایجنٹس</string>
+    <string name="str_cash_agents_desc">جاز کیش ایجنٹوں سے نقد رقم جمع کروائیں یا انخلا کریں</string>
+    <string name="str_merchant_agents">مرچنٹس</string>
+    <string name="str_merchant_agents_desc">جاز کیش کو قبول کرنے والے مرچنٹس</string>
+    <string name="str_search_radius">سرچ radius</string>
+    <string name="str_search_radius_desc">تلاش کا دائرہ (کلو میٹر میں) منتخب کریں</string>
+    <string name="str_get_directionis">راستہ حاصل کریں</string>
+    <string name="businesses">کاروبار</string>
+    <string name="str_bussinesses_agents_desc">جاز کیش کو قبول کرنے والے کاروبار</string>
+    <string name="str_search_area">اس علاقے میں سرچ کریں</string>
+    <string name="agents_nearby_capital">قریبی ایجنٹ</string>
+    <string name="got_it">مل گیا</string>
+    <string name="privacy_policy">رازداری کی پالیسی</string>
+
+    <!--Upgrade Account-->
+
+    <string name="upgrade_your_account">اپنا اکاؤنٹ اپ گریڈ کریں</string>
+    <string name="verify_yourself_to_upgrade">اپ گریڈ کرنے کیلئے خود کی تصدیق کریں</string>
+    <string name="upgrade_now_to_enjoy"> ابھی اکاؤنٹ اپگریڈ کریں</string>
+    <string name="balance_and_transaction_history">توازن اور لین دین کی تاریخ</string>
+    <string name="balance_and_transaction_history_coach_data">اپنے لین دین کی تاریخ کو دیکھنے کے لئے اکاؤنٹ کے بیلنس پر ٹیپ کریں</string>
+    <string name="terms_and_conditions">شرائط و ضوابط</string>
+    <string name="terms_and_conditions_">شرائط و ضوابط</string>
+    <string name="deposit_money_via_bank">بینک کے ذریعے  پیسے جمع  کروائیں </string>
+    <string name="it_s_super_easy">یہ بہت آسان ہے!</string>
+    <string name="here_s_how_you_can_add_money_to_jazzcash_via_any_bank">آپ آسانی سے دوسرے بینک اکاؤنٹس سے JazzCash  میں پیسے کا اضافہ کر سکتے ہیں. طریقہ یہ ہے:</string>
+    <string name="open_banking_app">بینکنگ اپلی کیشن کھولیں </string>
+    <string name="open_banking_app_log_on_to_banking_website">آپ  بینکاری کی اپلی کیشن کھولیں یا آن لائن بینکنگ ویب سائٹ پر لاگ ان کریں</string>
+    <string name="enter_details">تفصیلات درج کریں</string>
+    <string name="confirm_payments">تصدیق کریں</string>
+    <string name="provide_authentication_to_confirm_payment">ادائیگی کی تصدیق کریں</string>
+    <string name="you_are_done">طریقہ کار مکمل ہو گیا</string>
+    <string name="automatically_receive_amount_in_jazzcash_account">آپ خود کار طریقے سے اپنے  JazzCash اکاؤنٹ میں رقم وصول کریں گے</string>
+    <string name="goto_money_transfer_and_select_mobilink_microfinance_bank"> پیسے یا فنڈز کی منتقلی کی آپشن پر جائیں اور  "موبی لنک مائیکروفنانس بینک" منتخب کریں</string>
+    <string name="tap_money_transfer">منی ٹرانسفر پر ٹیپ کریں</string>
+    <string name="add_product_address">Add Address</string>
+
+    <string name="you_will_receive_a_reward_when_your_contact_creates_a_new_account">جب بھی آپ کا رابطہ ایک نیا اکاؤنٹ بنائے گا تو آپ کو انعام موصول ہو جائے گا </string>
+    <string name="send_to">وصول کنندہ</string>
+    <string name="non_registered_user">غیر رجسٹرڈ</string>
+    <string name="an_sms_will_be_sent_to_this_contact_with_a_link_to_sign_up_for_an_account">اس نمبر پر JazzCash بزنس اکاؤنٹ کے لیے رجسٹر کرنے کے لیے سائن-اپ لنک کے ساتھ ایک SMS بھیجا جائے گا</string>
+    <string name="send_invite">دعوت بھیجیں</string>
+    <string name="invitation_sent">بھیجی گئی دعوت</string>
+
+    <string name="invite_customer">کسٹمر کو دعوت دیں</string>
+    <string name="earn_rs_50_for_every_new_customer_sign_up"> ہر نئے بزنس سائن-اپ پر Rs. %d کمائیں.</string>
+
+    <string name="characters_left_count">بقیا حروف کی تعداد %s ہے</string>
+    <string name="add_nickname">مستقبل میں استعمال کرنے کیلئے نام شامل کریں</string>
+    <string name="add_nickname_title"> عرفی نام شامل کریں</string>
+    <!--region Ready Cash-->
+    <string name="ready_cash_poster_text">ReadyCash کے ذریعے پاکستان کا تیز ترین ڈیجیٹل قرض متعارف کیا گیا ہے</string>
+    <string name="ready_cash_poster_sub_title">ReadyCash سپورٹ ></string>
+    <string name="ready_cash_title">ReadyCash</string>
+    <string name="ready_cash_sub_title"> 100s کے ضرب میں رقم درج کریں</string>
+    <string name="ready_cash_main_hint">100</string>
+    <string name="ready_cash_amount_remark"> کے درمیان درخواست کر سکتے ہیں Rs. %1$s – %2$s </string>
+    <string name="ready_cash_amount_sub_title">100s کے ضرب میں رقم درج کریں</string>
+    <string name="ready_cash_transition_name">ready_cash_transition_name</string>
+    <string name="ready_cash_review_title">ReadyCash کا جائزہ لیں</string>
+    <string name="ready_cash_review_loan_amount">قرضے کی رقم</string>
+    <string name="repay__cash_review_due_date"> واپسی کی تاریخ </string>
+    <string name="ready_cash_review_fee_note"><b>Note:</b> نوٹ: قرض لوٹانے کے وقت فیس وصول کے جائے گی-</string>
+    <string name="ready_cash_review_terms_and_conditions">شرائط و ضوابط</string>
+    <string name="ready_cash_review_btn_confirm">تصدیق کریں</string>
+    <string name="request_success">درخواست کامیاب</string>
+    <string name="ready_cash_repay_title_des">پھر سے اس سروس کو استعمال کرنے کے لئے اپنا قرض ادا کریں</string>
+    <string name="ready_cash_repay_option1"> لوٹائیں ReadyCash</string>
+    <string name="ready_cash_repay_option2">کثر پوچھے گئے سوالات</string>
+    <string name="ready_cash_repay_option3"><![CDATA[شرائط و ضوابط]]></string>
+    <string name="ready_cash_repay_amount_title">واجب الادا رقم: Rs. </string>
+    <string name="ready_cash_repay_amount_description">آپ قسطوں میں بھی اس قرض کی ادائیگی کر سکتے ہیں.</string>
+    <string name="ready_cash_repay_amount_description_error">آپ کا بیلنس بہت کم ہے</string>
+    <string name="ready_cash_amount_btn">ReadyCash کا جائزہ لیں</string>
+    <string name="ready_cash_repay_amount_btn">ادا کردہ کا جائزہ لیں</string>
+    <string name="ready_cash_review_error_dialog_des">.لگتا ہے کچھ غلط ہو گیا. دوبارہ کوشش کریں یا مدد کے لئے ہم سے رابطہ کریں</string>
+    <string name="ready_cash_weekly_fees">ہفتہ وار فیس</string>
+    <string name="ready_cash_received">موصول ReadyCash</string>
+    <string name="ready_cash_due_date"> واپسی کی تاریخ </string>
+    <string name="ready_cash_non_eligible_tile">اہلیت کے معیار کو نیچے چیک کریں</string>
+    <string name="ready_cash_non_eligible_des">Dear customer, currently you are not eligible to avail ReadyCash loan. Keep using JazzCash Mobile Account more frequently to be eligible for ReadyCash loan in future.</string>
+    <string name="ready_cash_terms_sub_title">شرائط و ضوابط پڑھنے کے لئے نیچے سکرول کریں</string>
+    <string name="ready_cash_repay_outstanding_amount">بقایا رقم</string>
+    <string name="ready_cash_repay_paid_label">ادا شدہ</string>
+    <string name="ready_cash_repay_days_left">دن رہ گئے</string>
+    <string name="ready_cash_repay_day_left">دن رہ گئے</string>
+    <string name="ready_cash_repay_due_date">واجب الادا تاریخ:</string>
+    <string name="ready_cash_success_loan_deducted">قرض کی کٹوتی</string>
+    <string name="ready_cash_repay_review_title">رقم کی ادائیگی</string>
+
+
+    <string name="ready_cash_repay_history_subtitle">قرض لوٹانے کا پلان</string>
+    <string name="ready_cash_repay_history_collapsing_title_section">مقررہ تاریخ کے بعد ادائیگی کا پلان</string>
+    <string name="ready_cash_repay_history_collapsing_title_section_passed">مقررہ تاریخ گزر چکی ہے</string>
+    <string name="ready_cash_repay_history_upper_section_title">قرضے کی رقم</string>
+    <string name="ready_cash_repay_history_upper_section_subtitle">فیس چارجز</string>
+    <string name="ready_cash_repay_history_item_missed_txt">__ کو ہفتہ وار ادائیگی رہ گئی</string>
+    <string name="ready_cash_repay_history_item_paid_paid_date">ادا کی گئی تاریخ</string>
+    <string name="ready_cash_repay_history_item_paid_amount_paid">ادا شدہ رقم</string>
+    <string name="ready_cash_repay_history_item_current_outstanding_by">__ تک واجب الادا</string>
+    <string name="ready_cash_repay_history_item_future_if_you_pay"> _ تک واجب الادا رقم</string>
+    <string name="ready_cash_repay_history_item_future_fee_amount">فیس</string>
+
+    <!--endregion-->
+
+
+    <string name="account_already_exists">اکاؤنٹ پہلے سے موجود ہے</string>
+    <string name="account_already_exists_against">کے خلاف ایک اکاؤنٹ پہلے سے موجود ہے</string>
+    <string name="account_suspended_due_to_inactivity_reactivate_it">لیکن عارضی طور پر استعمال نہ ہونے کی وجہ سے معطل کر دیا گیا ہے. کیا آپ اسے دوبارہ چالو کرنا چاہتے ہیں؟</string>
+    <string name="account_reactivation">اکاؤنٹ دوبارہ چالو</string>
+    <string name="confirm_your_details">اپنی تفصیلات کی تصدیق کریں</string>
+
+    //Notifications center
+    <string name="all">تمام</string>
+    <string name="date">تاریخ</string>
+    <string name="_new">%s نئے</string>
+    <string name="unread">نہیں پڑھا</string>
+    <string name="new_uppercase">نئی</string>
+    <string name="favorites">پسندیدہ</string>
+    <string name="promotions">پروموشنز</string>
+    <string name="_day_left">%1$s دن بقایا</string>
+    <string name="delete_button_alt">ڈیلیٹ</string>
+    <string name="transactions">ٹرانزیکشنز</string>
+    <string name="_days_left">%1$s دن بقایا</string>
+    <string name="view_details">تفصیلات دیکھیں</string>
+    <string name="yes_delete">ہاں، ڈیلیٹ کریں</string>
+    <string name="select_all_small_a">تمام منتخب کریں</string>
+    <string name="payment_requests">ادائیگی کی درخواست</string>
+    <string name="get_discount_promotion">ڈسکاؤنٹ حاصل کریں</string>
+    <string name="promotions_no_active">آپ کے لئے کچھ شاندار آ رہا ہے. دیکھتے رہئیے.</string>
+    <string name="permanently_delete_notifications">اپنی نوٹیفکیشن  کو مستقل طور پر ان باکس سے ڈیلیٹ کر دیا جائے گا.</string>
+    <string name="promotions_no_favs">ابھی تک آپ نے کوئی پسندیدہ پروموشن جمع نہین کی۔ کسی بھی پروموشن کے نیچے بنے ستارے سے اسے یہاں جمع کریں</string>
+
+    <!--Merchant locator-->
+    <string name="allow_jazzcash_to_use">جاز کیش کو اپنے محل وقوع کا استعمال کرنے دیں اور اپنے قریب موجود تمام بائیو میٹرک ، کیش ایجنٹوں اور کاروباری اداروں کے مقامات تلاش کریں۔</string>
+    <string name="enable_location_access">مقام تک رسائی کو فعال کریں</string>
+    <string name="search_here">یہاں تلاش کریں</string>
+    <string name="recent_searches">حالیہ تلاش</string>
+
+    <string name="sent">بھیجے ہوئے</string>
+    <string name="money_out">بھیجے ہوئے</string>
+    <string name="money_in">موصول ہوئے</string>
+    <string name="search_history">سرچ ہسٹری</string>
+    <string name="select_statement_dates">شروع اور ختم ہونے کی تاریخ منتخب کریں</string>
+    <string name="start_date">شروع کرنے کی تاریخ</string>
+    <string name="end_date">آخری تاریخ</string>
+    <string name="dd_mm_yy">dd / MM / yy</string>
+    <string name="last_financial_year">گزشتہ مالی سال</string>
+    <string name="year_to_date">تاریخ کے سال</string>
+    <string name="last_month">پچھلے مہینہ</string>
+    <string name="financial_year_to_date">تاریخ کے مالی سال</string>
+
+    <string name="login_required">لاگ ان درکار ہے</string>
+    <string name="you_need_login_with_your_account">ایپلیکیشن کو مزید استعمال کرنے کیلیے لاگ ان کریں.</string>
+    <string name="daraz_wallet_title">دراز والیٹ ٹاپ-اپ</string>
+    <string name="daraz_contact_subtitle">وصول کنندہ کی تفصیلات درج کریں</string>
+    <string name="daraz_contact_hint">نام یا موبائل نمبر درج کریں</string>
+    <string name="enter_daraz_amount_to"> کی ٹاپ اپ رقم درج کریں %1$s</string>
+    <string name="daily_daraz_limit">آپ   Rs. %1$s - Rs. %2$s کے درمیان  پیسے جمع کروا سکتے ہیں.</string>
+    <string name="review_daraz_detail">تفصیلات کا جائزہ لیں</string>
+    <string name="unnamed_number">Unnamed</string>
+    <string name="daraz_verification_failed">دراز والیٹ نہیں ملا</string>
+    <string name="daraz_try_again">دوبارہ کوشش کریں</string>
+    <string name="daraz_change_number">نمبر تبدیل کریں </string>
+    <string name="the_mobile_number_is_not_accociated_with_any_daraz_account">موبائل نمبر %s کسی بھی دراز والیٹ کے ساتھ منسلک نہیں ہے</string>
+    <string name="daraz_transaction_successful">ٹرانزیکشن کامیاب</string>
+    <string name="daraz_amount_topup">ٹاپ۔اپ کردہ رقم</string>
+    <string name="daraz_recipient">وصول کنندہ</string>
+    <string name="daraz_top_up_another_daraz_account">کوئی اور دراز والیٹ ٹاپ۔اپ کریں</string>
+    <string name="daraz_saved_accounts">میرے محفوظ کردہ دراز والیٹ</string>
+    <string name="daraz_save_contact_string">Save Contact</string>
+    <string name="daraz_edit_nickname">عرفیت ترمیم کریں</string>
+    <string name="daraznickname">عرفیت</string>
+    <string name="daraz_update_name">اپ ڈیٹ نام</string>
+    <string name="the_selected_account_will_be_removed_from_your_saved_daraz_accounts">یہ والیٹ آپ کے محفوظ کردہ دراز والیٹس میں سے نکال دیا جائے گا.</string>
+    <string name="edit_nickname_daraz">عرفیت ترمیم کریں</string>
+    <string name="update_name_daraz">اپ ڈیٹ نام</string>
+    <string name="you_can_add_up_to_5_numbers_max">آپ 5 دراز والیٹ محفوط کر سکتے ہیں.</string>
+    <string name="saved_account_n_removed">والیٹ نکال دیا گیا ہے</string>
+    <string name="the_selected_account_has_been_removed_from_your_saved_daraz_accounts_successfully"> آپ کے محفوط کردہ دراز والیٹس میں سے نکال دیا گیا ہے</string>
+    <string name="saved_contacts_subheading">ایک آپشن منتخب کریں</string>
+    <string name="update">اپ ڈیٹ</string>
+    <string name="rs_decimal_space_">Rs. %1$s</string>
+    <string name="invite_subheading">Invite your friends to register on JazzCash</string>
+
+    <string name="biometric_permission">بایومیٹرک کی اجازت</string>
+    <string name="you_want_to_enable_biometric_permission">کیا آپ JazzCash کو اپنی بایومیٹرک استعمال کرنے کی اجازت دینا چاہتے ہیں؟</string>
+    <string name="you_want_to_disable_biometric_permission">کیا آپ JazzCash کو اپنی بایومیٹرک استعمال کرنے سے روکنا چاہتے ہیں؟</string>
+    <string name="biometric_permission_not_setup_check_settings">لگتا ہے ابھی تک آپ کی بایومیٹرک کی اجازت سیٹ نہیں ہوئی .براے مہربانی اپنی سیٹنگز چیک کریں.</string>
+    <string name="settings">Settings</string>
+    <string name="uh_oh">Uh oh</string>
+    <string name="biometric_login_for_app">JazzCash کے لئے بایومیٹرک لاگ ان</string>
+    <string name="login_using_biometric">بایومیٹرک کا استعمال کرتے ہوئے لاگ ان کریں</string>
+
+    <string name="some_attempted_to_login">کسی نے آپ کے اکاؤنٹ میں لاگ ان کرنے کی کوشش کی ہے.اگر یہ آپ نہیں ہیں تو یہ مسئلہ فوری رپورٹ کریں</string>
+    <string name="report_the_issue">مسئلے کی اطلاع کریں</string>
+    <string name="txt_submit">سبمٹ</string>
+    <string name="thankyout_for_reporting">رپورٹ کرنے کا شکریہ, ہم اس مسلئہ کا جائزہ کر کے اس پر ضروری اقدامات کریں گے</string>
+    <string name="your_balance_is_low">آپ کا بیلنس کم ہے</string>
+    <string name="your_balance_is_too_low_message">آپ کا بیلنس اس ٹرانزیکشن کے لئے ناکافی ہے. اپنے اکاؤنٹ میں مزید  پیسے ڈالیں</string>
+    <string name="low_balance">کم بیلنس</string>
+    <string name="please_add_money_to_jazzcash_account">برائے مہربانی ٹرانزیکشنز کے لیے اپنے JazzCash اکاؤنٹ میں پیسے ڈالیں</string>
+
+    <string name="search_city_cap">Search City</string>
+    <string name="select">منتخب کریں</string>
+    <string name="all_contacts">تمام رابطے</string>
+    <string name="results">نتائج</string>
+    <string name="invite_to_jazzcash">JazzCash میں دعوت دیں</string>
+    <string name="hot_item">نئی</string>
+
+    <!--    <string name="debit_card_settings">Card Settings</string>-->
+    <!--    <string name="debit_card_set_pin">Set Card PIN</string>-->
+    <string name="debit_card_settings">کارڈ سیٹنگ</string>
+    <string name="debit_card_set_pin">کارڈ PIN سیٹ کریں</string>
+    <string name="debit_card_block_card">کارڈ بلاک کریں</string>
+    <string name="debit_card_transaction_settings">ٹرانزیکشن سیٹنگ</string>
+    <string name="debit_card_my_visa">میرا VISA کارڈ</string>
+    <string name="debit_card_my_paypak">میرا  PayPakکارڈ</string>
+    <string name="debit_card_my_mastercard">میرا ماسٹر کارڈ</string>
+    <string name="debit_card_my_atm">میرا ATM کارڈ</string>
+    <string name="set_pin_subtitle">ئے PIN سیٹ کریں %1$s</string>
+    <string name="set_pin_hint">****</string>
+    <string name="set_pin_button_text">کارڈ PIN سیٹ کریں</string>
+    <string name="set_pin_warning_title">اپنا PIN کبھی کسی کے سامنے مت ظاہر کریں</string>
+    <string name="set_pin_warning_message">کبھی  بھی ذاتی  شناختی معلومات کسی کے سامنے ظاہر مت کریں جب تک آپ کو یقینی طور پر یہ معلوم نہ ہو ک یہ معلومات کس لیے مانگی جا رہی ہیں اور کس طرح استعمال کی جایئں گی.</string>
+    <string name="set_pin_success_dialog_title">PIN کامیابی سے سیٹ کر دیا گیا ہے</string>
+    <string name="set_pin_success_dialog_text">آپ ک کارڈ %1$s کے لیے کامیابی سے نیا PIN سیٹ کر دیا گیا ہے</string>
+    <string name="block_card_permanently_title">مستقل طور پر کارڈ  بلاک کریں</string>
+    <string name="block_card_confirm_permanently">کارڈ بلاک کرنے کی تصدیق کریں</string>
+    <string name="block_card_temporary_title">عارضی  طور پر کارڈ  بلاک کریں</string>
+    <string name="block_card_confirm_temporary">کارڈ بلاک کرنے کی تصدیق کریں</string>
+    <string name="block_card_select_reason">بلاک کرنے  کی وجہ منتخب کریں</string>
+    <string name="block_card_warning">آپ کا کارڈ مستقل طور پر بلاک کر دیا جائے گا</string>
+    <string name="block_card_confirm">کارڈ بلاک کرنے کی تصدیق کریں</string>
+    <string name="block_card_success_title">کارڈ مستقل طور پر بلاک کر دیا گیا ہے</string>
+    <string name="block_card_success_description">آپ کا  ڈیبٹ کارڈ جس کا نمبر: %1$s ہے، مستقل طور پر بلاک کر دیا گیا ہے. آپ سمیت کوئی بھی اب اس کارڈ کو مزید استعمال نہیں کر سکے گا</string>
+    <string name="temporary_block_card_success_title">Card Temporarily Blocked</string>
+    <string name="temporary_block_card_success_description">Your Debit Card number:\n%1$s has been blocked temporarily. You may unblock your card anytime you want.</string>
+    <string name="block_card_success_dialog_order_new">اک نیا کارڈ آرڈر کریں</string>
+    <string name="block_card_success_dialog_return">JazzCash ہوم پر واپس جایئں</string>
+    <string name="block_permanent">Permanent Block</string>
+    <string name="block_temporary">Temporary Block</string>
+    <string name="block_card">Block Card</string>
+    <string name="unblock_card">Unblock Card</string>
+
+    <string name="permanently_block_card_btn">Permanently Block</string>
+    <string name="unblock_card_btn">Unblock this Card</string>
+    <string name="unblock_card_confirm">Confirm Card Unblocking</string>
+    <string name="unblock_card_success_title">Card Unblocked</string>
+    <string name="unblock_card_success">Your Debit Card (%1$s) has been successfully unblocked.</string>
+
+    <string name="mastercard_debit">ماسٹر کارڈ ڈیبٹ</string>
+    <string name="paypak_debit">PayPak ڈیبٹ</string>
+    <string name="visa_debit">Visa Debit</string>
+    <string name="virtual">ورچوئل</string>
+    <string name="virtual_debit_cards">Virtual کارڈ</string>
+    <string name="instantly_issued">Instantly Issued</string>
+
+    <string name="top_results">اوپر کے نتائج</string>
+    <string name="frequently_asked_questions">اکثر پوچھے گئے سوالات</string>
+
+
+    <!--insurance-->
+    <string name="health_insurance">صحت کا بیمہ</string>
+    <string name="bottomSheetGridTitleHealthInsuranceSubTitle">منتخب انشورنس کی قسم</string>
+    <string name="daily_plan">روزانہ کی پلان</string>
+    <string name="weekly_plan">ہفتہ وار پلان</string>
+    <string name="monthly_plan">ماہانہ کی منصوبہ بندی</string>
+    <string name="yearly_plan">سالانہ پلان</string>
+    <string name="select_subscription_plan">منصوبہ منتخب کریں</string>
+    <string name="terms_and_conditions_description_">براہ کرم تمام شرائط و ضوابط کو پڑھنے کے لئے نیچے سکرول کریں</string>
+    <string name="buy_another_plan">نیا پلان کو سبسکرائب کریں</string>
+    <string name="my_plans">میرے پلان</string>
+    <string name="suggested_for_you">آپ کے لئے تجویز کردہ</string>
+    <string name="unsubscribe">منسوخ کریں</string>
+    <string name="plan_details">پلان کی تفصیلات</string>
+    <string name="submit_claim">نیا دعوی جمع کروائیں</string>
+    <string name="unsub_insurance_plan">انشورنس پلان منسوخ کریں</string>
+    <string name="want_to_unsubscribe_plan">آپ اس  پلان کو منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="unsub_plan_confirm">جی ہاں، منسوخ کریں</string>
+    <string name="subscription_canceled">منسوخ سبسکرپشن</string>
+    <string name="subscription_will_be_canceled">آپ کی سبسکرپشن اس بلنگ سائیکل کے اختتام پر منسوخ ہوجائے گی</string>
+    <string name="please_upload_following_documents">درج ذیل دستاویزات اپ لوڈ کریں</string>
+    <string name="document_uploaded">دستاویزات اپ لوڈ کر دیے گئے ہیں</string>
+    <string name="edit_document">دستاویزات میں ترمیم</string>
+    <string name="claim_sent_successfully">آپ نے اپنا کلیم کامیابی سے جمع کروا دیا ہے.\nآپ اپنے انشورنس پلان کی تفصیلات میں سے\nاپنے کلیم کا سٹیٹس دیکھ سکتے ہیں.</string>
+    <string name="see_my_claims">اپنے کلیمز دیکھیں</string>
+    <string name="expiry_date">ختم ہونے کی تاریخ : %1$s</string>
+    <string name="subscription_note">سبسکرپشن %1$s سے شروع ہو جائے گی.</string>
+    <string name="confirm_subscription">سبسکرپشن کی تصدیق کریں</string>
+    <string name="view_plan_details_desc">اپنے پلان کی تفصیلات دیکھیں.</string>
+    <string name="subscription_charges">سبسکرپشن چارجز</string>
+    <string name="my_claims">میرے کلیمز</string>
+    <string name="submit_new_claims">نیا کلیم جمع کروائیں</string>
+    <string name="top_benefits">ٹاپ فوائد</string>
+    <string name="show_coverage_details">کوریج کی تفصیلات دیکھیں</string>
+    <string name="coverage_details">کوریج کی تفصیلات</string>
+    <string name="if_you_miss_payment_">اگر آپ کی ایک ادائیگی رہ جاتی ہے تو، آپ کی کوریج کی رقم کو درج ذیل طریقوں سے پرو- ریٹ کیا جائے گا:</string>
+    <string name="premium_paid">پریمیم ادا کردہ</string>
+    <string name="premium_due">واجب الادا پریمیم</string>
+    <string name="search_loan_repayment">بینک / فاؤنڈیشن تلاش کریں</string>
+    <string name="search_company">Search Company</string>
+    <string name="search_select_company">Search or Select Company</string>
+    <string name="review_details_insurance">تفصیلات کا جائزہ لیں</string>
+
+    <!--donations-->
+    <string name="donations">عطیات</string>
+    <string name="rupee_counts">ہر روپے سے فرق پڑتا ہے.</string>
+    <string name="donate_today">آج ہی عطیہ کریں!</string>
+    <string name="search_for_an_organization">ایک تنظیم  تلاش کریں</string>
+    <string name="select_donation_type">عطیہ  کی قسم منتخب کریں</string>
+    <string name="donation_for_">%1s کو رقم عطیہ کریں</string>
+    <string name="enter_donation_amount_to">عطیہ کرنے کے لیے رقم درج کریں</string>
+    <string name="donate_rs_">  عطیہ کریں Rs. %1$s</string>
+    <string name="daily_donation_limit">آپ  Rs.  %1$s سے  Rs  %2$s تک عطیہ کر سکتے ہیں</string>
+    <string name="review_donation_detail">تفصیلات کا جائزہ لیں </string>
+    <string name="donation">عطیہ</string>
+    <string name="organization">ادارہ</string>
+    <string name="donation_type">عطیہ کی قسم</string>
+    <string name="edit_organization">ادارہ میں ترمیم کریں</string>
+    <string name="edit_donation_type">عطیہ کی قسم ترمیم کریں</string>
+    <string name="thank_you_for_making_a_difference">آپکے عطیات کا شکریہ </string>
+    <string name="amount_donated">عطیہ کی رقم</string>
+    <string name="schedule">شیڈول</string>
+    <string name="d_for">وصول کنندہ</string>
+    <string name="donate_from">سے</string>
+    <string name="securely_donated_via">JazzCash کے ذریعے محفوظ طریقے سے عطیہ</string>
+
+    <!--Government Payments-->
+    <string name="bottomSheetGridTitleTaxPayment">ٹیکس ادائیگی</string>
+    <string name="search_taxes">کمپنی تلاش کریں یا منتخب کریں</string>
+
+    <string name="careem_voucher">کریم واؤچر</string>
+    <string name="select_voucher_amount">واؤچر کی رقم منتخب کریں</string>
+    <string name="step_1">مرحلہ 1</string>
+    <string name="here_s_how_you_can_use_the_vouchers">آپ واؤچر کا استعمال اس طرح کر سکتے ہیں :</string>
+
+    <!--bundles-->
+    <string name="prepaid_mobile_bundles">پری پیڈ موبائل بنڈلز</string>
+    <string name="my_recents">میرے حالیہ</string>
+    <string name="hybrid">ہائبرڈ</string>
+    <string name="data">ڈیٹا</string>
+    <string name="calls">کالیں</string>
+    <string name="sms">Sms</string>
+    <string name="subscribe">سبسکرائب</string>
+    <string name="will_be_subscribed_on_this_no">%1$sاس نمبر پر سبسکرائب کیا جائے گا۔</string>
+    <string name="confirm_number">تصدیق نمبر</string>
+
+    <string name="prepaid_mobile_load">پری پیڈ موبائل لوڈ</string>
+    <string name="postpaid_mobile_bill">پوسٹ پیڈ موبائل بل</string>
+
+
+    <!--select operator mobile load-->
+    <string name="enter_or_search_jazz_number">موبائل نمبر درج کریں</string>
+    <string name="enter_or_search_ufone_number">موبائل نمبر درج کریں</string>
+    <string name="enter_or_search_telenor_number">موبائل نمبر درج کریں</string>
+    <string name="enter_or_search_zong_number">موبائل نمبر درج کریں</string>
+    <string name="select_operator_and_bundle">آپریٹر اور بنڈل منتخب کریں</string>
+
+    <!--contacts mobile load-->
+    <string name="your_phone_contacts">آپ کے فون کے رابطے</string>
+
+    <!-- Utility Bills-->
+
+    <string name="select_bill_type_service_provider">%1$s سروس فراہم کرنے والا ادارہ منتخب کریں</string>
+    <string name="select_bill_type_service_provider2">%1$s فراہم کرنے والا ادارہ منتخب کریں</string>
+    <string name="search_service_provider">ادارہ منتخب کریں یا تلاش کریں</string>
+    <string name="specify_bil">بل کی تفصیلات کی وضاحت کریں</string>
+    <string name="fetch_bill">بل منگوائیں</string>
+
+    <string name="enter_till_id">Till ID درج کریں</string>
+    <string name="payment_method">Select Payment Method</string>
+    <string name="add_debit_card">Add Debit Card</string>
+    <string name="wallet_balance">Balance: Rs. %1$s</string>
+    <string name="masked_card_num">**** **** **** %1$s</string>
+    <string name="available_limit">Available limit: Rs. %1$s</string>
+    <string name="additional_needed">Additional Rs. %1$s required</string>
+    <string name="split_payment">Split Payment</string>
+    <string name="split_payment_type">Split Payment with %1$s</string>
+    <string name="split_amount">Rs. %1$s / Rs. %1$s</string>
+    <string name="split_with_another">Split with another Debit Card</string>
+    <string name="transfer_to_non_jazzcash">Transfer to Non JazzCash Account</string>
+    <string name="not_on_jazzcash">The recipient is not on JazzCash but will receive money when they open a JazzCash account. Your money will be automatically returned if the recipient does not register in 2 days.</string>
+    <string name="add_message_for_rs_10">Add Message for Rs. 10</string>
+    <string name="personal_note">Personal Note</string>
+    <string name="add">Add</string>
+    <string name="withdrawal_charges">Withdrawal Charges</string>
+    <string name="want_to_pay_withdrawal">I want to pay withdrawal charges (Rs. 50) on behalf of the receiver</string>
+    <string name="note_characters_remaining">100/100 character remaining</string>
+    <string name="add_note">Add Note</string>
+    <string name="deleted">Delete</string>
+    <string name="rs_0">Rs. 0</string>
+    <string name="personalized_note">Personalized Note</string>
+    <string name="zero_fee_earn_rs_50"><![CDATA[Zero Fee & Earn Rs. 50]]></string>
+    <string name="transfer_on_mob">Transfer on recipient’s mobile number %1$s instead. You will also earn Rs. 50 when recipient creates a JazzCash account with your invite.</string>
+    <string name="save_fee">Save Fee?</string>
+    <string name="save_fee_desc">Transfer on recipient’s mobile number %1$s instead and save Transaction Fee completely</string>
+    <string name="unlock_zero_fee_earn_rs_50"><![CDATA[Unlock Zero Fee & Earn Rs. 50]]></string>
+    <string name="sign_up_reward">Hello Saniya, We have added Rs. 50 to your account for signing up on JazzCash</string>
+    <string name="claim">Claim</string>
+    <string name="payment_received_title">Rs. %1$s Received</string>
+    <string name="payment_received_note">You received Rs. %1$s from %2$s. The amount has been added to your account.</string>
+    <string name="payment_received_more">Rs. %1$s received from %2$s. You have more pending approvals. Open My Approvals to claim</string>
+    <string name="view_receipt">View Receipt</string>
+    <string name="open_approvals">Open My Approvals</string>
+    <string name="Anoush_has_sent">%1$s has sent you Rs. %2$d</string>
+
+    <string name="balance_too_low">بیلنس ناکافی ہے</string>
+    <string name="cancel_transaction">ٹرانزیکشن منسوخ کریں</string>
+    <string name="e_vouchers">ای واؤچر</string>
+    <string name="select_an_e_vouchers">ای واؤچر منتخب کریں  جو آپ خریدنا چاہتے ہیں</string>
+    <string name="select_an_e_voucher">واؤچر منتخب کریں</string>
+    <string name="enter_e_voucher_company_name">ای واؤچر / کمپنی کا نام</string>
+    <string name="enter_value_of_e_voucher_optional">ای واؤچر کی قیمت (آپشنال) درج کریں</string>
+    <string name="select_currency_of_e_voucher">ای واؤچر کی کرنسی منتخب کریں</string>
+    <string name="enter_email">ای میل درج کریں</string>
+    <string name="enter_mobile_number">فون نمبر درج کریں</string>
+    <string name="e_vouchers_cant_find_desc">ہمیں بتائیے آپ کونسا ای واؤچر JazzCash کے ذریعے  خریدنا چاہتے ہیں</string>
+    <string name="cant_find_what_you_are_looking_for">کیا آپ کسی نئے واؤچر کی تجویز کرنا چاہتے ہیں ؟</string>
+    <string name="let_us_know_which_e_voucher_we_are_missing">ہمیں اپنی تجویز سے آگاہ کریں</string>
+    <string name="recent_searches_app">حالیہ سرچ</string>
+    <string name="edit_mobile_number">Edit Mobile Number</string>
+    <string name="confirm_transaction_words">ٹرانزیکشن کی تصدیق کریں</string>
+
+    <string name="low_account_limits_desc_L1_L2">Your account limit has reached. Please visit your nearest Mobilink Microfinance bank to increase limits.</string>
+    <string name="low_account_limits_desc_L0_L1">Your account limit has reached. Please upgrade your account to increase limits and complete the transaction.</string>
+    <string name="may_be_later">Maybe later</string>
+    <string name="view_locations">View locations</string>
+    <string name="upgrade_now">Upgrade now</string>
+    <string name="upgrade_later">Upgrade later</string>
+    <string name="you_are_on">You are on</string>
+    <string name="free_plan">Free Plan</string>
+    <string name="buy_a_package">Buy a Package</string>
+    <string name="prescriptions">Prescriptions</string>
+    <string name="calls_from_doctor">Calls from Doctor</string>
+    <string name="upload_reports">Upload Reports</string>
+    <string name="_5_free_questions_left">2/5 free questions left</string>
+    <string name="my_questions">My Questions</string>
+    <string name="video_consultation">Video Consultation</string>
+    <string name="free_heath_chat">Free Health Chat</string>
+    <string name="comment">Comment</string>
+    <string name="like">Like</string>
+    <string name="mini_package">Mini Package</string>
+    <string name="best_selling">BEST SELLING</string>
+    <string name="start_typing_here">Start typing here...</string>
+    <string name="your_appointments">Your Appointments</string>
+    <string name="find_experts_by_topic">Find Experts by Topic</string>
+    <string name="featured_experts">Featured Experts</string>
+    <string name="view_all">View All</string>
+    <string name="you_dont_have_appointments">You dont have any appointments yet.\n Find an expert and Book one now!</string>
+    <string name="_5_questions_remaining_details">5 Questions Remaining.</string>
+    <string name="free_package">Free Package</string>
+    <string name="all_package">All Packages</string>
+    <string name="book_an_appointment">Book an Appointment</string>
+    <string name="select_a_date">Select a Date</string>
+    <string name="select_a_time">Select a Time</string>
+    <string name="enter_patient_details">Enter Patient Details</string>
+    <string name="appointment_details">Appointment Details</string>
+    <string name="patient_profile">Patient Profile</string>
+    <string name="appointment_for_someone_else">Appointment for someone else?</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="explain_your_problem">Explain Your Problem</string>
+    <string name="optional">*Optional</string>
+    <string name="attach_a_document">Attach a Document</string>
+    <string name="consultant_appointment">Consultant Appointment</string>
+    <string name="pay_from">Pay From</string>
+    <string name="ready_cash_loan">Ready Cash Loan</string>
+    <string name="pay_via_another_debit_card">Pay via another Debit Card</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="the_doctor_will_call_you_at_this_time">The doctor will call you at this time</string>
+    <string name="prescription_">Prescription:</string>
+    <string name="maya_video_consultancy_call">Maya Video Consultancy Call</string>
+    <string name="view_details_below_for_available_packages">View details below for available packages.</string>
+    <string name="you_dont_have_any_appointments_yet_nfind_and_expert_and_book_me_now">You dont have any appointments yet.\nFind and expert and book me now.</string>
+    <string name="most_asked_questions">Most Asked Questions</string>
+    <string name="ask_question">Ask Question</string>
+    <string name="buy_package">Buy Package</string>
+    <string name="continue_to_payment">Continue to Payment</string>
+    <string name="doc_attached">Document Attached</string>
+    <string name="no_questions">No Questions</string>
+    <string name="maya_no_question_text">No result found. Please change the\nfilter option or ask new question.</string>
+    <string name="doc_call_back_des">An expert doctor will call you back to this number.</string>
+    <string name="document_attached">View Document</string>
+    <string name="document_attached_description">Your document has been attached with the question.</string>
+    <string name="document_attached_title">Document Successfully Attached</string>
+
+    <string name="debit_card_front">ڈیبٹ کارڈ کی سیدھی طرف</string>
+    <string name="debit_card_back">ڈیبٹ کارڈ کی الٹی طرف</string>
+
+    <string name="step_2">مرحلہ 2</string>
+    <string name="step_3">مرحلہ 3</string>
+    <string name="purchase_the_voucher_of_your_choice">اپنی پسندیدہ واؤچر کو خریدیں</string>
+    <string name="copy_the_voucher_code_from_sms">اپنی رسید یا SMS سے واؤچر کوڈ کاپی کریں</string>
+    <string name="enter_the_evoucher_code_to_redeem">واؤچراستعمال کرنے کے لئے چیکآاٹ کرتے وقت اپنا واؤچر کوڈ درج کریں</string>
+    <string name="e_vouchers_help">ای واؤچر مدد</string>
+    <string name="e_vouchers_help_desc">آپ واؤچر کا استعمال اس طرح کر سکتے ہیں:</string>
+    <string name="select_voucher">Select Voucher</string>
+    <string name="edit_daraz">ترمیم</string>
+    <string name="all_contact_daraz">آپ کے فون کے رابطے</string>
+    <string name="start_inviting_your_friends_to_earn">Start inviting your friends to earn</string>
+    <string name="view_trans_history">View Transaction History</string>
+
+
+    <string name="movie_location_description">اپنی لوکیشن  تک رسائی کی اجازت دیں تاکہ ہم آپ کے قریبی سنیما تجویز کرسکیں ، یا آپ اسے فوری طور پر خود منتخب کریں۔</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="cinema">سنیما</string>
+    <string name="namee">نام</string>
+    <string name="phone_number">فون نمبر</string>
+    <string name="total_amount_movie_ticket">کل رقم</string>
+    <string name="details_booked_movie_tickets">بک  شدہ  فلم ٹکٹس  کی تفصیلات</string>
+    <string name="buy_another_movie_ticket">ایک اور فلم کا ٹکٹ خریدیں</string>
+    <string name="my_bought_tickets">My bought tickets</string>
+    <string name="view_movie_tickets">View Movie Tickets</string>
+    <string name="view_booked_movie_tickets">فلم کی بک ٹکٹ دیکھیں</string>
+    <string name="ticket_amount">Ticket Amount</string>
+    <string name="movie">فلم</string>
+    <string name="information">معلومات</string>
+    <string name="expires_in">Expires in %1$s hours</string>
+    <string name="expired">Expired</string>
+    <string name="your_jazzcash_account">Your JazzCash Account</string>
+    <string name="sender_name">Sender Name</string>
+    <string name="no_pending_approvals">No Pending Approvals</string>
+
+    <string name="promo_code_is_invalid">پرومو کوڈ درست نہیں ہے</string>
+    <string name="enter_manually">Enter manually</string>
+    <string name="no_promos_available">No promo codes available</string>
+    <string name="edit_promo">Edit Promo</string>
+    <string name="passenger">مسافر</string>
+    <string name="view_your_available_promo_codes"> اپنے  پرومو کوڈ دیکھیں</string>
+    <string name="bus_tickets">بس ٹکٹس </string>
+    <string name="book_a_bus_ticket">ایک بس ٹکٹ بک کریں </string>
+    <string name="bus_services">Bus Service(s)</string>
+    <string name="refine_search">سرچ کو بہتر کریں</string>
+    <string name="seat_selection">سیٹ منتخب کریں</string>
+    <string name="select_male_or_female_seat">اپنی ترجیحی سیٹ منتخب کریں</string>
+    <string name="book_now">ابھی خریدیں</string>
+    <string name="update_information">معلومات کو اپ ڈیٹ کریں</string>
+    <string name="promo_codes">پرومو کوڈز</string>
+    <string name="route">راسته</string>
+    <string name="bus_service">بس سروس</string>
+    <string name="departure_date"> روانگی کی تاریخ </string>
+    <string name="all_services">تمام سروسز</string>
+    <string name="search_bus_service">Search bus service</string>
+    <string name="select_departure">روانگی کی جگہ  منتخب کریں </string>
+    <string name="select_arrival">آمد کی جگہ منتخب کریں</string>
+    <string name="applied">Applied</string>
+    <string name="view_details_of_booked_bus_tickets">بک شدہ بس ٹکٹس  کی تفصیلات</string>
+    <string name="buy_another_ticket">ایک اور ٹکٹ خریدیں</string>
+    <string name="my_booked_tickets">میری بک شدہ ٹکٹس</string>
+    <string name="tickets_amount">ٹکٹس کی رقم</string>
+    <string name="ticket_number">ٹکٹ نمبر</string>
+    <string name="date_and_time">تاریخ اور وقت</string>
+    <string name="seats">سیٹس</string>
+    <string name="booking_name">نام</string>
+    <string name="apply_for_refund">واپس لیں</string>
+    <string name="app_for_cancellation">Apply for Cancellation</string>
+    <string name="this_ticket_is_non_refundable">یہ ٹکٹ ناقابل واپسی ہے.  کیا  آپ کو  یقین ہے آپ  اپنی خریدی ہوئی ٹکٹ منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="yes_cancel">جی ہاں، منسوخ کر دیں </string>
+    <string name="your_bus_ticket_has_been_cancelled">آپ کی بس ٹکٹ منسوخ کر دی گئی ہے</string>
+    <string name="are_you_sure_to_refund_bus_ticket">کیا  آپ کو  یقین ہے کے آپ اپنی خریدی ہوئی ٹکٹ منسوخ کرنا چاہتے ہیں اور رقم واپس لینا چاہتے ہیں ؟</string>
+    <string name="yes_refund">جی ہاں، واپس لیں </string>
+    <string name="sort_by">ترتیب دیں</string>
+    <string name="filter_by">فلٹر کریں</string>
+    <string name="facilities">سہولیات</string>
+    <string name="please_scroll_down_terms_condition">براہ کرم تمام شرائط و ضوابط کو پڑھنے کے لئے نیچے سکرول کریں</string>
+    <string name="tap_on_option_details">تفصیلات دیکھنے کیلئے کسی ایک آپشن پر ٹیپ کریں</string>
+    <string name="enter_promo_code">پرومو کوڈ درج کریں</string>
+    <string name="apply">اپلائی</string>
+    <string name="add_your_email_address_small">اپنا ای میل شامل کریں</string>
+    <string name="bus_details">بس کی تفصیلات</string>
+    <string name="service_type">Service Type</string>
+    <string name="time_range">وقت کی حد</string>
+    <string name="no_small">No</string>
+    <string name="select_gender">صنف منتخب کریں</string>
+    <string name="male_seat_cannot_female">بس میں عورتوں کی بک شدہ سیٹ کے ساتھ مردانہ سیٹ بک نہیں کی جا سکتی. برائے مہربانی کسی اور سیٹ کا انتخاب کریں</string>
+    <string name="female">عورت</string>
+    <string name="male">مرد</string>
+    <string name="no_buses_available">کوئی بس روانگی کے لئے دستیاب نہیں</string>
+    <string name="please_update_filter">بس راستوں کو دیکھنے کے لئے براہ کرم فلٹراپ ڈیٹ کریں.</string>
+    <string name="update_filters">فلٹرز اپڈیٹ کریں</string>
+    <string name="select_date">تاریخ منتخب کریں</string>
+    <string name="booked">بوکڈ</string>
+    <string name="available">دستیاب ہے</string>
+    <string name="add_a_promo_code">پرومو کوڈ شامل کریں</string>
+    <string name="recommended">تجویز کردہ</string>
+    <string name="book">Book</string>
+    <string name="payment_method_header">Payment Method</string>
+    <string name="redeem_credits">Redeem available JVo Credits?</string>
+    <string name="pay_using">PAY USING</string>
+    <string name="loan_from_merchant">Loan From Merchant</string>
+    <string name="transaction_fee">Transaction Fee</string>
+    <string name="pay_amount">Pay Amount</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="confirm">Confirm</string>
+    <string name="loan_approve_description">Please Review the details below\nand confirm your loan</string>
+    <string name="m_khata_description">View your loan repayment details below</string>
+    <string name="search_store_name">Search Store Name</string>
+    <string name="m_khata">M Khata</string>
+    <string name="options">Options</string>
+    <string name="payment_history">Payment History</string>
+    <string name="repay_loan">Repay Loan</string>
+    <string name="contact_merchant">Contact Merchant</string>
+    <string name="label_merchant_name">Merchant Name</string>
+    <string name="merchant_account_number">Merchant Account Number</string>
+    <string name="merchant_fee">Merchant Fee</string>
+    <string name="loan_repayment_due_date">Loan Repayment Due Date</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="wait_description">Waiting for merchant to approve\nyour request.</string>
+    <string name="dummy_merchant">Polu Ustad</string>
+    <string name="hbl_current_account">HBL Current Account</string>
+    <string name="other_payment_methods">Other Payment Methods</string>
+    <string name="loan_id">Loan Id</string>
+    <string name="loan_fee">Loan Fee</string>
+    <string name="paid_using">Paid Using</string>
+    <string name="tap_a_star_to_rate">Tap a star to rate</string>
+
+    <string name="event_tickets">ایونٹ ٹکٹ</string>
+    <string name="choose_or_search_your_event_ticket">ایونٹ  ٹکٹ کو سرچ  یا  منتخب کریں-</string>
+    <string name="enable_event_location_message">اپنی  لوکیشن  تک رسائی کی اجازت دیں تاکہ ہم آپ کے قریبی ایونٹ تجویز کرسکیں ، یا آپ اسے فوری طور پر خود منتخب کریں۔</string>
+    <string name="search_event_by_name">ایونٹ  کو نام سے سرچ  کریں-</string>
+    <string name="no_events_available">کوئی ایونٹ ابھی کے لئے شیڈول نہیں</string>
+    <string name="due_to_covid_message">کرونا پھیلنے کی وجہ سے ، فی الحال کوئی ایونٹ نہیں ہے۔ برائے مہربانی کچھ دیر بعد دوبارہ کوشش کریں.</string>
+    <string name="no_events_available_message">آپ کی سرچ کے خلاف کوئی ایونٹ نہیں ملا۔ براہ مہربانی کوئی مختلف سرچ اصطلاح کے ساتھ دوبارہ کوشش کریں.</string>
+    <string name="sort_by_price">قیمت کے حساب سے ترتیب دیں</string>
+    <string name="filters">فلٹرز</string>
+    <string name="all_cities">تمام شہر</string>
+    <string name="time_range_small_r">وقت کی حد</string>
+    <string name="select_city">شہر منتخب کریں</string>
+    <string name="search_city">Search city</string>
+    <string name="book_ticket">ٹکٹ خریدیں</string>
+    <string name="about_event"> ایونٹ کے بارے میں</string>
+    <string name="per_ticket_price"> فی ٹکٹ کی قیمت </string>
+    <string name="no_of_tickets">ٹکٹ کی تعداد (ے)</string>
+    <string name="total_price">کُل قیمت</string>
+    <string name="location">لوکیشن</string>
+    <string name="event_name"> ایونٹ کا نام</string>
+    <string name="purchased_by">خریدار</string>
+    <string name="event_location">Event Location</string>
+    <string name="my_bought_event_tickets">میرے خریدے گئے ٹکٹ </string>
+    <string name="number_of_tickets">ٹکٹ کی تعداد</string>
+    <string name="total_amount_paid">کل ادا کردہ رقم</string>
+    <string name="view_details_of_the_ticket">ٹکٹ کی تفصیلات دیکھیں.</string>
+
+    <string name="cant_send_to_merchant">Sorry, money can only be transferred to Consumers</string>
+
+    <string name="enter_mpin_confirm_transfer">Enter MPIN to confirm transaction</string>
+    <string name="transferred_to_bank">بینک اکاؤنٹ میں بھیجیں</string>
+    <string name="transferred_to_cnic">شناختی کارڈ پر بھیجیں</string>
+    <string name="transferred_to_jazzcash">JazzCash میں بھیجیں</string>
+    <string name="prepaid_load_purchased">پری پیڈ موبائل لوڈ</string>
+    <string name="postpaid_bill_paid">پوسٹ پیڈ بل</string>
+    <string name="bundle_purchased">بنڈل خرید لیا گیا</string>
+    <string name="utility_bill_paid">یوٹیلیٹی بل ادا ہوگیا</string>
+    <string name="load_installment_paid">قرض کی قسط ادا ہوگیئ</string>
+    <string name="fee_paid">فیس ادا ہوگیئ ہے</string>
+    <string name="low_to_high">پیسے کم سے زیادہ</string>
+    <string name="high_to_low">پیسے زیادہ سے کم</string>
+
+    <string name="previous_transfers">منتقل کردہ فنڈز</string>
+    <string name="payoneer_account_balance">پایونیر اکاؤنٹ بیلنس</string>
+    <string name="your_payoneer">آپکا پایونیر</string>
+    <string name="standard_payoneer_charges_2_per_transaction_will_be_applicable_on_transferred_funds">منتقل کردہ رقم پرعام پایونیر چارجز (ہر ٹرانزیکشن پر %2) لاگو ہوں گے</string>
+    <string name="transfer_amount">رقم کی منتقلی</string>
+    <string name="payoneer_fee">پایونیرفیس</string>
+    <string name="payoneer_limit"><![CDATA[روزانہ کی بقایا کریڈٹ حد: <Rs. %1$s (%2$s)> ]]></string>
+    <string name="exchange_rate">ایکسچینج ریٹ</string>
+    <string name="payoneer_total_amount">کُل رقم</string>
+    <string name="in_progress">کام جاری ہے</string>
+    <string name="amount_transferred">منتقل کردہ رقم</string>
+    <string name="previous_transaction_header">منتقل کردہ فنڈز</string>
+    <string name="previous_transaction_subheader">اپنے منتقل کردہ فنڈز کی ہسٹری دیکھیں</string>
+    <string name="disclaimer">ایکسچینج ریٹ میں تبدیلی آ سکتی ہے.</string>
+
+    <string name="search_contact_name_number">رابطہ سرچ کریں یا موبائل نمبر درج  کریں</string>
+    <string name="review_request">درخواست دیکھیں</string>
+    <string name="description">تفصیل</string>
+    <string name="attachment">اٹیچمنٹ</string>
+    <string name="decline_request">درخواست مسترد کریں</string>
+    <string name="approve_request">درخواست منظور کریں</string>
+    <string name="invoice_attached">منسلک شدہ انوائس</string>
+    <string name="tap_here_to_review_invoice">انوائس دیکھنے کے لیے یہاں ٹیپ کریں</string>
+    <string name="mob">موبائل نمبر:</string>
+    <string name="emailcolon">ای میل:</string>
+    <string name="recipient_details">وصول کنندہ کی تفصیلات</string>
+    <string name="item_details">آرڈر کی تفصیلات</string>
+    <string name="qty">QTY</string>
+    <string name="amount_rs">رقم (Rs.)</string>
+    <string name="notes">نوٹ</string>
+    <string name="sub_total">سب ٹوٹل</string>
+    <string name="tax">ٹیکس</string>
+    <string name="discount">چھوٹ</string>
+    <string name="shipping">شپنگ</string>
+    <string name="request_extension">توسیع کی درخواست کریں</string>
+    <string name="select_number_of_days">دنوں کی تعداد منتخب کریں*</string>
+    <string name="remaining_daily_credit_limit">روزانہ کی بقایا کریڈٹ حد: %1$s</string>
+    <string name="review_request_details">درخواست کی تفصیلات دیکھیں</string>
+    <string name="amount_requested"> درخواست شدہ رقم</string>
+    <string name="add_more_details">مزید تفصیلات شامل کریں</string>
+    <string name="details">تفصیلات</string>
+    <string name="send_request_success_dialog"> آپ نے %1$s کو %2$s پر پیسوں کی درخواست بھیجی  ہے. ادائیگی موصول ہونے پر آپ کو مطلع کر دیا جائے گا.</string>
+    <string name="add_more_detail">مزید تفصیلات شامل کریں</string>
+    <string name="edit_note">نوٹ میں ترمیم کریں</string>
+    <string name="characters_remaining_total_count"> %1$s/%2$s حروف باقی رہتے ہیں</string>
+    <string name="enter_amount_request_from">درخواست کرنے کے لئے رقم درج کریں %1$s</string>
+    <string name="search_name_or_mobile_number"> نام یا موبائل نمبر سرچ کریں</string>
+    <string name="add_a_note">نوٹ شامل کریں</string>
+    <string name="dont_cancel">منسوخ مت کریں</string>
+    <string name="cancel_request">درخواست منسوخ کریں</string>
+    <string name="go_to_home">Go to home</string>
+    <string name="total_amount_1">کل رقم</string>
+    <string name="current_due_date_params"> مقررہ تاریخ: %s</string>
+    <string name="extension_requested">توسیع کی درخواست کریں</string>
+    <string name="extension_requested_desc">Your request for extension has been successfully submitted.</string>
+    <string name="uh_no">Uh oh!</string>
+    <string name="something_went_wrong_trying_fix_problem">Something went wrong. We\'re trying to fix the problem.</string>
+
+    <string name="history">پرانی منظوریاں</string>
+    <string name="pending">غیر منظور شدہ</string>
+    <string name="pending_ktrack_orders">Pending Orders</string>
+    <string name="no_requests_found">کوئی درخواست نہیں ملی</string>
+    <string name="no_requests_now">آپ کے پاس فی الحال کوئی درخواست نہیں ہے</string>
+    <string name="accepted">منظور شدہ</string>
+    <string name="declined">انکار کر دیا</string>
+    <string name="remind">یاد کروایئں</string>
+    <string name="accept">منظور کریں</string>
+    <string name="decline">انکار کریں</string>
+    <string name="due_date">مقررہ تاریخ</string>
+
+    <string name="cancel_request_dialog">کیا آپ  a.%2$s کو بھیجی گئی Rs. %1$s کی درخواست کو منسوخ کرنا چاہتے ہیں ؟</string>
+    <string name="you_request_amount">آپ نے %2$s سے Rs. %1$s کی درخواست کی ہے</string>
+    <string name="from_request_amount">%1$s نے آپ سے .Rs %2$s کی درخواست کی ہے</string>
+    <string name="we_were_unable_to_verify_pin">We were not able to verify your MPIN. Please try again or reset if forgotten.</string>
+
+
+    <string name="searc_name_or_mobile_number">Search name or mobile number</string>
+    <string name="no_registered_friend">No Registered Friends</string>
+    <string name="insurance_plan_subscribed">Insurance Plan Subscribed</string>
+    <string name="ready_cash_support">ReadyCash Support</string>
+    <string name="undo"> واپس کریں</string>
+    <string name="reminder_sent">یاد کرا دیا گیا ہے</string>
+    <string name="repayment_successful">Repayment Successful</string>
+    <string name="total_repayment">Total Repayment</string>
+    <string name="reminder_sent_message">We\'ve reminded %1$s about your request of Rs. %2$s</string>
+    <string name="in_progress_payoneer">In Progress</string>
+    <string name="inactive_payoneer">INACTIVE</string>
+
+    <string name="set_spending_preference">Set Spending Preference</string>
+    <string name="set_preference">Set preference</string>
+    <string name="spending_placeholder">Rs. 10000</string>
+    <string name="daily_spending_limit">Daily Spending Limit</string>
+    <string name="expiry">Expiry</string>
+    <string name="set_expiry">Set expiry</string>
+    <string name="email_address_placeholder">ali@jazzcash.com.pk</string>
+    <string name="enter_email_address_optional">Enter your email address (Optional)</string>
+    <string name="maximum_limit">Maximum limit can be 30000</string>
+    <string name="expiry_one_year">One Year</string>
+    <string name="expiry_six_months">Six Months</string>
+    <string name="expiry_three_months">Three Months</string>
+    <string name="expiry_after_one_transaction">Expire after one transaction</string>
+    <string name="minimum_limit">Minimum limit can be %d</string>
+    <string name="confirm_set_expiry">Confirm</string>
+    <string name="spending_limit">Spending Limit</string>
+    <string name="spending_limit_sum">Rs. %d</string>
+    <string name="virtual_mastercard_card_selected">Mastercard Virtual Card selected</string>
+    <string name="edit_expiry_date">Edit Expiry Date</string>
+    <string name="no_email_added">No email added</string>
+    <string name="change_spending_limit">Edit Spending Limit</string>
+    <string name="enter_new_spending_limit">Enter New Spending Limit</string>
+    <string name="virtual_card_issued">Virtual Card Issued</string>
+    <string name="name_on_card">Name on Card</string>
+    <string name="card_fee_paid">Card fee paid</string>
+    <string name="securely_issued_via">Securely issued via</string>
+
+    <string name="voucher_purchased">Voucher Purchased</string>
+    <string name="payoneer_account_created_popup">Your Payoneer account has been created successfully. Please link your account with JazzCash</string>
+    <string name="active_payoneer">ACTIVE</string>
+    <string name="securely_received_via">Securely received via</string>
+    <string name="securely_paid_via">Securely paid via</string>
+    <string name="view_card">View Card</string>
+
+    <string name="ecommerce_settings">eCommerce Settings</string>
+    <string name="enable_transactions_ecommerce">Enable Transactions or change their limits</string>
+    <string name="enable_ecommerce">Enable eCommerce Transactions</string>
+
+    <string name="invite_earning_without_permission">اپنے دوستوں کو JazzCash پر دعوت دیں اور پیسے کمائیں</string>
+    <string name="invite_friends_to_register_on_jazzcash_n_amp_earn_rs_50_instantly"><![CDATA[Invite friends to register on JazzCash\n & earn Rs.50 instantly]]></string>
+    <string name="no_pending_invites">No Pending Invites</string>
+    <string name="send_reminder">Send Reminder</string>
+
+
+    <string name="location_event">جگہ</string>
+    <string name="transfer_to_other_wallet">Transfer to Other Wallet</string>
+    <string name="search_or_select_recipients_wallet">Search or select recipients wallet</string>
+    <string name="enter_account_number_or_search_recipient">Enter account number or search recipient</string>
+    <string name="send_rs">Send Rs.</string>
+    <string name="enter_recipients_mobile_number">Enter the recipient\'s mobile number</string>
+    <string name="show_wallet_formats">Show wallet formats</string>
+    <string name="recipients_phone_number">وصول کنندہ کا موبائل نمبر</string>
+    <string name="add_a_number">Add a number</string>
+    <string name="fee_deducted">Fee Deducted</string>
+    <string name="activate_accounts_steps">اپنا اکاؤنٹ دوبارہ چالو کرنے کے لئے درجہ ذیل پر عمل کریں</string>
+    <string name="visit_a_jazzcash_agent">JazzCash ایجنٹ کا دورہ کریں.</string>
+    <string name="get_your_account_verified">اپنے اکاؤنٹ کی توثیق کروائیں</string>
+    <string name="locate_and_visit_agents">اپنے قریبی JazzCash ایجنٹ کو تلاش کریں اور ادھر جائیں</string>
+    <string name="take_bvs_and_actviate_account">ایجنٹ آپ کی بایومیٹرک تصدیق کرے گا اور آپ کا موجودہ اکاؤنٹ چالو ہو جائے گا</string>
+    <string name="find_agents_nearby">قریبی ایجنٹس تلاش کریں</string>
+    <string name="no_payer_added_yet">No Payer Added Yet</string>
+    <string name="you_can_start_receiving_money_from_anywhere_in_the_world">You can start receiving money from anywhere in the world</string>
+    <string name="add_due_date">Add due date</string>
+    <string name="due_date_optional">Due Date (Optional)</string>
+    <string name="description_optional">Description (Optional)</string>
+    <string name="add_notes_to_payer">Add notes to payer</string>
+    <string name="request_id">Request ID:</string>
+    <string name="search_by_payer_name">Search by payer name</string>
+    <string name="requested_on">Requested on</string>
+    <string name="payment_request">Payment Request</string>
+    <string name="received">Received</string>
+    <string name="request_details">Request Details</string>
+    <string name="transaction_id_collen">Transaction ID:</string>
+    <string name="international_payment_request">International Payment Request</string>
+    <string name="request_money_heading">Request Money from within Pakistan</string>
+    <string name="request_money_description">Request someone with a JazzCash account to send you money</string>
+    <string name="international_payment_heading">International  Payments Request</string>
+    <string name="international_payment_description">" Send a request for payment to anyone,\nanywhere in the world"</string>
+    <string name="select_country">Select Country</string>
+    <string name="description_characters_remaining">/100 character remaining</string>
+    <string name="description_characters_remaining_new">/100 character remaining</string>
+    <string name="enter_or_select_from_contact">Enter or select from contact</string>
+    <string name="email_placeholder">email@website.com</string>
+    <string name="send_request">Send Request</string>
+    <string name="track_payment_requests">Track Payment Requests</string>
+    <string name="here_you_will_find_tracking_option_of_your_international_payment_requests">Here you will find tracking option of your international payment requests.</string>
+    <string name="tap_on_the_thumbnail_to_edit_or_delete_the_payer">Tap on the thumbnail to edit or delete the payer.</string>
+    <string name="total_amount_">Total Amount</string>
+    <string name="share_transaction">Share this Transaction</string>
+    <string name="your_payoneer_account">Your Payoneer Accounts</string>
+    <string name="number_is_invalid">Please add a valid phone number</string>
+    <string name="select_payment_method">SELECT PAYMENT METHOD</string>
+    <string name="chat_bot_msg">Hello There! Do you know you can switch the app language and chat with me in Urdu?</string>
+    <string name="maya_health">Maya Health</string>
+    <string name="add_a_document">Add a document</string>
+    <string name="your_document_will_be_permanently_deleted">Your document will be permanently deleted.</string>
+    <string name="upload">Upload</string>
+    <string name="transaction_failed_error_lable">Transaction Failed</string>
+    <string name="try_again_lable">Try again</string>
+    <string name="contact_us_lable">Contact us</string>
+    <string name="wrong_mpin">Wrong MPIN</string>
+    <string name="reset_mpin_lable">Reset MPIN</string>
+    <string name="powered_by">Powered by</string>
+    <string name="trade_your_way">Trade your Way</string>
+    <string name="join_virtual_trading_leagues_or_invest_in_real_stocks_using_jazzcash">Join virtual trading leagues or invest in real stocks using JazzCash.</string>
+    <string name="just_one_more_step">Just one more step to get you started</string>
+    <string name="need_little_more_info">We just need a little more information to get you started with Live Trading</string>
+    <string name="explore_trading">Explore Trading</string>
+    <string name="Name">Name</string>
+    <string name="volume">Volume</string>
+    <string name="price">Price</string>
+    <string name="_24_hr_change">24 Hr Change%</string>
+    <string name="sort_by_sector">Sort by Sector</string>
+    <string name="my_requests">My Requests</string>
+    <string name="leave_league">Leave League</string>
+    <string name="delete">Delete</string>
+    <string name="jazzcash_ktrade_league_descrption">Transit league competitions will begin on the 1st of every month and continue for a period of two months...</string>
+    <string name="rank">Rank</string>
+    <string name="member">Members</string>
+    <string name="historical_data">Historical Data</string>
+    <string name="summary">Summary</string>
+    <string name="about">About</string>
+    <string name="aboutDescription">"The Unilever Pakistan Limited (UPL), formerly Lever Brothers Pakistan Limited was established in Pakistan in 1948. Unilever Pakistan is the largest fast-moving consumer goods (FMCG) company in Pakistan, as well as one of the largest multinationals operating in the country. "</string>
+    <string name="equity_profile">Equity Profile</string>
+    <string name="action">Action</string>
+    <string name="value">Value</string>
+    <string name="market_data">Market Data</string>
+    <string name="technical_analytics"><![CDATA[Technical & Analytics]]></string>
+    <string name="technical_indicators">Technical Indicators</string>
+    <string name="financial_performance">Financial Performance</string>
+    <string name="annual">Annual</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="earnings">Earnings</string>
+    <string name="revenue">Revenue</string>
+    <string name="forums">Forums</string>
+    <string name="news_announcements"><![CDATA[News & Announcements]]></string>
+    <string name="search_data">Search Data</string>
+    <string name="select_start_and_end_dates">Select start and end dates</string>
+    <string name="market_order">Market Order</string>
+    <string name="limit_order">Limit Order</string>
+    <string name="remaining_cash_balance">Remaining Cash Balance</string>
+    <string name="number_of_shares">Number of Shares</string>
+    <string name="buy_when_share_price_reaches">Buy when share price reaches:</string>
+    <string name="place_order">Place Order</string>
+    <string name="live_trading_registration">Live Trading Registration</string>
+    <string name="mailing_address">Mailing Address</string>
+    <string name="enter_mailing_address">Enter Mailing Address</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="source_of_income">Source of Income</string>
+    <string name="unemployed">Unemployed</string>
+    <string name="employed">Employed</string>
+    <string name="i_hereby_acknowledge_that_i_have_read_the_terms_and_conditions">I hereby acknowledge that I have read the Terms and Conditions</string>
+    <string name="i_hereby_provide_zakat_declaration">I hereby provide Zakat Declaration</string>
+    <string name="ktrade_registration_success_description">Application to be process in 48 working hours. Once approved, we will let you know, so you can start live trading.</string>
+    <string name="invites">Invites</string>
+    <string name="receieved_request">Received Request</string>
+    <string name="pending_invites_league_request"><b>%1$s Pending</b> invites to start your league</string>
+    <string name="pending_requests_ktrade_league"><b>%1$d Pending</b> Requests</string>
+    <string name="name_your_league">Name Your League</string>
+    <string name="name_l">Name</string>
+    <string name="set_a_date">Set a Date</string>
+    <string name="buy_in_amount">Buy in Amount</string>
+    <string name="virtual_amount">Virtual Amount</string>
+    <string name="pay">Pay</string>
+    <string name="invite_participants">Invite Participants</string>
+    <string name="search_a_mobile_number">Search a mobile number</string>
+    <string name="my_club">My Club</string>
+    <string name="league">League</string>
+    <string name="practice">Practice</string>
+    <string name="start_a_new_league">Start a New League</string>
+    <string name="league_text">Enter your league name, select the size of your league, and the duration of league.</string>
+    <string name="virtual_leagues">Virtual Leagues</string>
+    <string name="join_league_and_start_earning">Join league and start earning</string>
+    <string name="friends_club">Friends Club</string>
+    <string name="invite_part_to_league">Invite participants and create your own league</string>
+    <string name="continue_learning">Continue Learning</string>
+    <string name="see_all">See All</string>
+    <string name="write_a_comment">Write a comment..</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="next_lesson">Next Lesson</string>
+    <string name="you_have_viewd">You have completed all %1$s Videos</string>
+    <string name="you_have_watched_all_lessons">You have watched all lessons!</string>
+    <string name="continue_trading">Continue Trading</string>
+    <string name="search_the_topic">Search the topic</string>
+    <string name="not_search_found">No search results found for “%1$s”. Please try a different search term</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="learning_center">Learning Center</string>
+    <string name="Start_learning_trading">Start learning trading</string>
+    <string name="number_of_stocks">Number of Stocks</string>
+    <string name="service_charges">Service Charges</string>
+    <string name="service_charges_are_not">Service charges are not applicable\nin virtual mode</string>
+    <string name="buy_for_rs"><![CDATA[Buy <b>%1$s</b> for <b>Rs. %2$s</b>]]></string>
+    <string name="add_practice_money">Add Practice Money</string>
+    <string name="select_amount">Select Virtual Amount</string>
+    <string name="net_worth">Net Worth</string>
+    <string name="my_badges">My Badges</string>
+    <string name="detail">Detail</string>
+    <string name="my_performance">My Performance</string>
+    <string name="news">News</string>
+    <string name="support_legal"><![CDATA[Support & Legal]]></string>
+    <string name="stay_tuned">Stay tuned</string>
+    <string name="complete_introductory_nvideo">Complete Introductory\nVideo</string>
+    <string name="performance">Performance</string>
+    <string name="gains">Gains</string>
+    <string name="losses">Losses</string>
+    <string name="cash_prize">Cash Prize</string>
+    <string name="virtual_money">Virtual Money</string>
+    <string name="league_note">Pay Rs. %1$s to join %2$s league competitions, Competition will begin on the 1st of every month and continue for a period of two months, ending on the last day of the second month. Portfolio returns will be calculated for a 60-day period, with the beginning value being the same for each participant and ending value.</string>
+    <string name="exit_league">Exit League</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="pending_orders">پینڈنگ آرڈر</string>
+    <string name="pending_orders_coach_data">Tap here to view your pending orders and track all the orders you have placed.</string>
+    <string name="virtual_live"><![CDATA[Virtual Trading]]></string>
+    <string name="trading_coach_data"><![CDATA[Tap here to switch from Practice to League and My Club.]]></string>
+    <string name="learn_investments">Learn Investments</string>
+    <string name="learn_investment_coach_data">Tap here to find learning material, tutorials, tips and tricks to help you start trading like a pro.</string>
+    <string name="create">Create</string>
+    <string name="league_detail">Transit league competitions will begin on the 1st of every month and continue for a period of two months...</string>
+    <string name="start_now">Start Now</string>
+    <string name="buy_rs_">Buy Rs. %1$s</string>
+    <string name="sell_rs_">Sell Rs. %1$s</string>
+    <string name="updated_on_">Updated on: %1$s</string>
+    <string name="symbol">Symbol</string>
+    <string name="exchange">Exchange</string>
+    <string name="bid">Bid (Size)</string>
+    <string name="offer">Offer (Size)</string>
+    <string name="lot">Lot Size</string>
+    <string name="market">Market</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="link_contacts_to_invite">Link your contact book with JazzCash to send league invites to your friends and family.</string>
+
+    <string name="total_earning">Total Earning</string>
+    <string name="re_activations">Reactivation</string>
+    <string name="payoneer">Payoneer</string>
+    <string name="registration_earnings">Registration Earnings</string>
+    <string name="re_activation_earnings">Reactivation Earnings</string>
+    <string name="reactivate_friends">Reactivate Friends</string>
+
+    <!--Track Invite And Earn-->
+    <string name="registrations">Registrations</string>
+    <string name="reactivations">Reactivations</string>
+    <string name="today_text">Today</string>
+    <string name="this_month">This Month</string>
+    <string name="date_text">Date</string>
+    <string name="select_filters">Select Filters</string>
+    <string name="select_filters_registered">Registered</string>
+    <string name="select_filters_send_reminder">Send Reminder</string>
+    <string name="reminder_expires_in_3_days">Reminder Expires in 3 Days</string>
+
+    <string name="share_this_promo_for_refferals">Share this promo for refferals</string>
+    <string name="rs_with_amount">Rs. %1$d</string>
+    <string name="shlash_">%1$d test %2$s </string>
+    <string name="send_reminder_to_friend"><b>Send a reminder</b> to your friend to register and<b> earn Rs. %1$d </b></string>
+    <string name="transaction_through_JazzCash"><b>Send a reminder </b>to your friend to do a transaction through JazzCash and <b>earn Rs. %1$s </b></string>
+    <string name="link_their_payoneer_accounts"><b>Send a reminder</b> to your friend to link their payoneer accounts and <b>earn Rs. %1$s </b></string>
+    <string name="share_the_promo">Share the referral code</string>
+    <string name="payoneer_earnings">Referral Earnings</string>
+    <string name="refer_a_friend">Refer a Friend</string>
+    <string name="cnic_terms">By choosing to use this Service (“SERVICE”) you agree to establish a direct contractual relationship with Mobilink Microfinance Bank Limited (“BANK”) as a customer/borrower and you further agree to be bound by the BANK’s terms and conditions of use of the SERVICE and undertake to repay the ReadyCash loan amount along with all the due charges on the agreed date and time.</string>
+    <string name="pull_down_to_refresh">Pull down to refresh</string>
+    <string name="dorment_message">"Your account is in dormant state, would you like to activate it? "</string>
+    <string name="unikrew_l1_desc">unikrew_l1_des</string>
+
+</resources>

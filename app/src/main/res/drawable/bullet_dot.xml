@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <size
+        android:width="@dimen/figma_5_dp"
+        android:height="@dimen/figma_5_dp" />
+    <solid android:color="@color/grey_60" /> <!-- Bullet color -->
+</shape>

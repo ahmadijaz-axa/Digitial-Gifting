@@ -1,0 +1,31 @@
+<vector android:autoMirrored="true" android:height="20dp"
+    android:viewportHeight="20" android:viewportWidth="20"
+    android:width="20dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h20v20h-20z"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M17.083,2.917V18.75C17.083,18.971 16.996,19.183 16.839,19.34C16.683,19.496 16.471,19.584 16.25,19.584H3.75C3.529,19.584 3.317,19.496 3.161,19.34C3.004,19.183 2.917,18.971 2.917,18.75V2.917"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M6.25,2.917V1.25C6.25,1.029 6.338,0.817 6.494,0.661C6.65,0.505 6.862,0.417 7.083,0.417H12.917C13.138,0.417 13.35,0.505 13.506,0.661C13.662,0.817 13.75,1.029 13.75,1.25V2.917"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M0.417,2.917H19.583"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M6.25,5.833V15.833"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M10,5.833V15.833"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+        <path android:fillColor="#00000000"
+            android:pathData="M13.75,5.833V15.833"
+            android:strokeColor="#ffffff" android:strokeLineCap="round"
+            android:strokeLineJoin="round" android:strokeWidth="1.5"/>
+    </group>
+</vector>

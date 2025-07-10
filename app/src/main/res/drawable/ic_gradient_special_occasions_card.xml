@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#FFECC2"
+        android:endColor="#FFFFFF">
+    </gradient>
+    <stroke android:width="1.5dp"
+        android:color="#FFDB2D"/>
+
+    <corners android:radius="@dimen/figma_8_dp"/>
+</shape>

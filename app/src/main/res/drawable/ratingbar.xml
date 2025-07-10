@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ratingbar_empty"  android:height="@dimen/figma_32_dp" android:width="@dimen/figma_32_dp"/>
+    <item
+        android:drawable="@drawable/ratingbar_empty" android:height="@dimen/figma_32_dp" android:width="@dimen/figma_32_dp"/>
+    <item
+        android:drawable="@drawable/ratingbar_filled" android:height="@dimen/figma_32_dp" android:width="@dimen/figma_32_dp"/>
+</layer-list>

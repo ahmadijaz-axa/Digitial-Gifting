@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tv_worksans_regular_14_000000">
+        <item name="android:textSize">@dimen/ssp_14</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+        <item name="android:textColor">@color/standardBlack</item>
+        <item name="lineHeight">@dimen/ssp_20</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+</resources>

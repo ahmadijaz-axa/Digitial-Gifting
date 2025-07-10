@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <OnClick motion:targetId="@+id/ivChevDown" />
+        <KeyFrameSet >
+            <KeyAttribute
+                motion:motionTarget="@+id/ivChevDown"
+                motion:framePosition="100"
+                android:alpha="0.5" />
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/imgQrScan"
+            motion:layout_constraintEnd_toEndOf="@+id/tvQr"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintBottom_toTopOf="@+id/tvQr"
+            motion:layout_constraintTop_toBottomOf="@+id/tvHeading"
+            motion:layout_constraintStart_toStartOf="@+id/tvQr"
+            android:layout_marginTop="@dimen/figma_16_dp" />
+        <Constraint
+            android:id="@+id/imgQrInvite"
+            motion:layout_constraintEnd_toEndOf="@+id/tvInvite"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan"
+            motion:layout_constraintStart_toStartOf="@+id/tvInvite" />
+        <Constraint
+            android:id="@+id/imgRedeem"
+            motion:layout_constraintEnd_toEndOf="@+id/tvRedeem"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan"
+            motion:layout_constraintStart_toStartOf="@+id/tvRedeem" />
+        <Constraint
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/tvInvite"
+            motion:layout_constraintEnd_toStartOf="@+id/tvRedeem"
+            motion:layout_constraintStart_toEndOf="@+id/tvQr"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintTop_toBottomOf="@+id/imgQrInvite"
+            motion:layout_constraintTop_toTopOf="@+id/tvQr" />
+        <Constraint
+            android:id="@+id/loy_arrow"
+            motion:layout_constraintEnd_toStartOf="@+id/imgQrInvite"
+            motion:layout_constraintStart_toEndOf="@+id/imgQrScan"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan" />
+        <Constraint
+            android:id="@+id/imageLoyInf"
+            motion:layout_constraintEnd_toStartOf="@+id/imgRedeem"
+            motion:layout_constraintStart_toEndOf="@+id/imgQrInvite"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrInvite"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrInvite" />
+        <Constraint
+            android:id="@+id/tvQr"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintTop_toBottomOf="@+id/imgQrScan"
+            android:layout_marginStart="@dimen/figma_22_dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/figma_12_dp" />
+        <Constraint
+            android:id="@+id/tvRedeem"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/imageLoyInf"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            motion:layout_constraintTop_toBottomOf="@+id/imageLoyInf"
+            motion:layout_constraintTop_toTopOf="@+id/tvInvite" />
+
+        <Constraint
+            android:id="@+id/ivChevDown"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:layout_marginEnd="@dimen/figma_15_dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/figma_4_dp" />
+
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/imgQrScan"
+            motion:layout_constraintEnd_toEndOf="@+id/tvQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toTopOf="@+id/tvQr"
+            motion:layout_constraintTop_toBottomOf="@+id/tvHeading"
+            motion:layout_constraintStart_toStartOf="@+id/tvQr"
+            android:layout_marginTop="@dimen/figma_16_dp" />
+        <Constraint
+            android:id="@+id/imgQrInvite"
+            motion:layout_constraintEnd_toEndOf="@+id/tvInvite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan"
+            motion:layout_constraintStart_toStartOf="@+id/tvInvite" />
+        <Constraint
+            android:id="@+id/imgRedeem"
+            motion:layout_constraintEnd_toEndOf="@+id/tvRedeem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan"
+            motion:layout_constraintStart_toStartOf="@+id/tvRedeem" />
+        <Constraint
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/tvInvite"
+            motion:layout_constraintEnd_toStartOf="@+id/tvRedeem"
+            motion:layout_constraintStart_toEndOf="@+id/tvQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintTop_toBottomOf="@+id/imgQrInvite"
+            motion:layout_constraintTop_toTopOf="@+id/tvQr" />
+        <Constraint
+            android:id="@+id/loy_arrow"
+            motion:layout_constraintEnd_toStartOf="@+id/imgQrInvite"
+            motion:layout_constraintStart_toEndOf="@+id/imgQrScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrScan"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrScan" />
+        <Constraint
+            android:id="@+id/imageLoyInf"
+            motion:layout_constraintEnd_toStartOf="@+id/imgRedeem"
+            motion:layout_constraintStart_toEndOf="@+id/imgQrInvite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgQrInvite"
+            motion:layout_constraintTop_toTopOf="@+id/imgQrInvite" />
+        <Constraint
+            android:id="@+id/tvQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintTop_toBottomOf="@+id/imgQrScan"
+            android:layout_marginStart="@dimen/figma_22_dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/figma_12_dp" />
+        <Constraint
+            android:id="@+id/tvRedeem"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/imageLoyInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            motion:layout_constraintTop_toBottomOf="@+id/imageLoyInf"
+            motion:layout_constraintTop_toTopOf="@+id/tvInvite" />
+
+        <Constraint
+            android:id="@+id/ivChevDown"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="0"
+            android:layout_marginEnd="@dimen/figma_15_dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/figma_4_dp" />
+    </ConstraintSet>
+</MotionScene>

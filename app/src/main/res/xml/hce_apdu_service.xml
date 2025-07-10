@@ -1,0 +1,21 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:apduServiceBanner="@drawable/jazz_cash"
+    android:description="@string/hce_service_description"
+    android:requireDeviceUnlock="true">
+
+    <aid-group
+        android:category="payment"
+        android:description="@string/aid_description">
+        <!-- Following is a PPSE AID. You must always include this AID in order for payments to
+           work-->
+        <aid-filter android:name="325041592E5359532E4444463031"/>
+        <!-- Following AID list is specific to the application requirements.
+           If your application supports the type of paymentInstrument that these AID represents,
+           you must include those AID in your configuration file -->
+        <aid-filter android:name="A0000000041010"/> <!-- Mastercard DEBIT/CREDIT -->
+        <aid-filter android:name="A0000000042203"/> <!-- Mastercard US DEBIT/CREDIT -->
+        <aid-filter android:name="A0000000043060"/> <!-- Maestro DEBIT -->
+        <aid-filter android:name="A0000000049100"/> <!-- Private label AID-->
+    </aid-group>
+
+</host-apdu-service>

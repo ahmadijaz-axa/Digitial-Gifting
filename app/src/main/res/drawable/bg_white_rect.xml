@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/white" />
+
+    <!-- Border (stroke) -->
+    <stroke
+        android:width="@dimen/figma_1_dp"
+        android:color="@color/bg_line_view" /> <!-- Red stroke -->
+
+    <!-- Optional corner radius -->
+    <corners android:radius="@dimen/figma_10_dp" />
+</shape>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standardPadding">8dp</dimen>
+    <dimen name="figma_100_dp">@dimen/_83sdp</dimen>
+    <dimen name="figma_106_dp">@dimen/_88sdp</dimen>
+    <dimen name="figma_24_dp">@dimen/_20sdp</dimen>
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+    <dimen name="figma_16_sp">@dimen/ssp_13</dimen>
+    <dimen name="single_margin">16dp</dimen>
+    <dimen name="figma_40_dp">@dimen/_33sdp</dimen>
+    <dimen name="figma_48_dp">@dimen/_40sdp</dimen>
+    <dimen name="figma_50_dp">@dimen/_41sdp</dimen>
+    <dimen name="figma_52_dp">@dimen/_43sdp</dimen>
+<!--    <dimen name="figma_57_dp">@dimen/_47sdp</dimen>-->
+    <dimen name="figma_84_dp">@dimen/_70sdp</dimen>
+    <dimen name="figma_8_dp">@dimen/_7sdp</dimen>
+    <dimen name="figma_7_dp">@dimen/_6sdp</dimen>
+    <dimen name="figma_9_dp">@dimen/_8sdp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+
+    <dimen name="figma_20_sp">@dimen/ssp_17</dimen>
+    <dimen name="figma_23_sp">@dimen/ssp_19</dimen>
+    <dimen name="figma_8_sp">@dimen/ssp_7</dimen>
+
+    <dimen name="figma_20_dp">@dimen/sdp_17</dimen>
+    <dimen name="figma_360_dp">@dimen/_300sdp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="figma_14_sp">@dimen/ssp_12</dimen>
+    <dimen name="figma_12_sp">@dimen/ssp_10</dimen>
+    <dimen name="figma_11_sp">@dimen/ssp_11</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="eighteen_dp">18dp</dimen>
+    <dimen name="figma_44_dp">@dimen/sdp_37</dimen>
+    <dimen name="figma_64_dp">@dimen/sdp_53</dimen>
+    <dimen name="figma_70_dp">@dimen/sdp_58</dimen>
+    <dimen name="figma_72_dp">@dimen/sdp_60</dimen>
+    <dimen name="figma_74_dp">@dimen/sdp_62</dimen>
+
+    <dimen name="figma_24_sp">@dimen/ssp_20</dimen>
+    <dimen name="figma_28_sp">@dimen/ssp_23</dimen>
+    <dimen name="figma_42_dp">@dimen/sdp_35</dimen>
+
+    <dimen name="figma_10_dp">@dimen/sdp_8</dimen>
+    <dimen name="figma_12_dp">@dimen/sdp_10</dimen>
+    <dimen name="figma_132_dp">@dimen/sdp_110</dimen>
+    <dimen name="figma_13_dp">@dimen/sdp_12</dimen>
+    <dimen name="figma_14_dp">@dimen/sdp_12</dimen>
+    <dimen name="figma_30_dp">@dimen/sdp_25</dimen>
+    <dimen name="figma_39_dp">@dimen/sdp_33</dimen>
+    <dimen name="figma_32_dp">@dimen/sdp_27</dimen>
+    <dimen name="figma_6_dp">@dimen/sdp_5</dimen>
+    <dimen name="figma_3_dp">@dimen/sdp_2</dimen>
+    <dimen name="figma_4_dp">@dimen/sdp_3</dimen>
+    <dimen name="figma_5_dp">@dimen/sdp_4</dimen>
+    <dimen name="figma_18_dp">@dimen/sdp_15</dimen>
+    <dimen name="figma_28_dp">@dimen/sdp_23</dimen>
+    <dimen name="figma_46_dp">@dimen/sdp_38</dimen>
+
+
+    <dimen name="figma_18_sp">@dimen/ssp_15</dimen>
+
+    <dimen name="figma_44_sp">@dimen/sdp_37</dimen>
+    <dimen name="figma_16_dp">@dimen/sdp_13</dimen>
+
+    <dimen name="figma_4_sp">@dimen/ssp_3</dimen>
+    <dimen name="figma_45_sp">@dimen/ssp_38</dimen>
+    <dimen name="figma_17_sp">@dimen/ssp_14</dimen>
+
+
+    <dimen name="figma_25_sp">@dimen/ssp_21</dimen>
+    <dimen name="figma_30_sp">@dimen/ssp_25</dimen>
+    <dimen name="figma_32_sp">@dimen/ssp_27</dimen>
+
+    <dimen name="figma_47_dp">@dimen/sdp_39</dimen>
+
+    <dimen name="figma_10_sp">@dimen/ssp_8</dimen>
+    <dimen name="figma_9_sp">@dimen/ssp_7</dimen>
+
+    <dimen name="figma_13_sp">@dimen/ssp_10</dimen>
+
+    <dimen name="figma_40_sp">@dimen/ssp_33</dimen>
+
+    <dimen name="figma_22_sp">@dimen/ssp_18</dimen>
+
+    <dimen name="figma_7_sp">@dimen/ssp_6</dimen>
+    <dimen name="figma_5_sp">@dimen/ssp_4</dimen>
+    <dimen name="figma_6_sp">@dimen/ssp_5</dimen>
+    <dimen name="figma_2_sp">@dimen/ssp_2</dimen>
+    <dimen name="figma_2_dp">@dimen/sdp_2</dimen>
+
+    <dimen name="figma_36_sp">@dimen/ssp_30</dimen>
+    <dimen name="figma_19_sp">@dimen/ssp_16</dimen>
+    <dimen name="figma_50_sp">@dimen/ssp_42</dimen>
+    <dimen name="figma_76_dp">@dimen/sdp_63</dimen>
+
+    <dimen name="figma_70_sp">@dimen/ssp_58</dimen>
+    <dimen name="figma_67_dp">@dimen/sdp_57</dimen>
+    <dimen name="figma_63_dp">@dimen/sdp_53</dimen>
+    <dimen name="figma_11_dp">@dimen/sdp_9</dimen>
+    <dimen name="figma_1_dp">@dimen/sdp_1</dimen>
+    <dimen name="figma_180_dp">@dimen/_144sdp</dimen>
+    <dimen name="figma_185_dp">@dimen/_154sdp</dimen>
+    <dimen name="figma_224_dp">@dimen/sdp_186</dimen>
+    <dimen name="figma_240_dp">@dimen/sdp_210</dimen>
+    <dimen name="figma_256_dp">@dimen/sdp_213</dimen>
+    <dimen name="figma_254_dp">@dimen/sdp_210</dimen>
+    <dimen name="figma_26_dp">@dimen/sdp_22</dimen>
+    <dimen name="figma_27_dp">@dimen/sdp_23</dimen>
+    <dimen name="figma_25_dp">@dimen/sdp_21</dimen>
+    <dimen name="figma_35_dp">@dimen/sdp_29</dimen>
+    <dimen name="figma_77_dp">@dimen/sdp_64</dimen>
+    <dimen name="figma_22_dp">@dimen/sdp_18</dimen>
+    <dimen name="figma_54_dp">@dimen/sdp_45</dimen>
+    <dimen name="figma_36_dp">@dimen/sdp_30</dimen>
+    <dimen name="figma_23_dp">@dimen/sdp_19</dimen>
+    <dimen name="figma_17_dp">@dimen/sdp_14</dimen>
+    <dimen name="figma_19_dp">@dimen/sdp_16</dimen>
+    <dimen name="figma_116_dp">@dimen/_96sdp</dimen>
+    <dimen name="figma_136_dp">@dimen/_112sdp</dimen>
+    <dimen name="figma_266_dp">@dimen/_222sdp</dimen>
+    <dimen name="figma_300_dp">@dimen/_249sdp</dimen>
+
+
+    <!--sdp equivalent dimen-->
+    <dimen name="minus_sdp_8">@dimen/_minus8sdp</dimen>
+    <dimen name="sdp_1">@dimen/_1sdp</dimen>
+    <dimen name="sdp_2">@dimen/_2sdp</dimen>
+    <dimen name="sdp_3">@dimen/_3sdp</dimen>
+    <dimen name="sdp_4">@dimen/_4sdp</dimen>
+    <dimen name="sdp_5">@dimen/_5sdp</dimen>
+    <dimen name="sdp_6">@dimen/_6sdp</dimen>
+    <dimen name="sdp_7">@dimen/_7sdp</dimen>
+    <dimen name="sdp_8">@dimen/_8sdp</dimen>
+    <dimen name="sdp_9">@dimen/_9sdp</dimen>
+    <dimen name="sdp_10">@dimen/_10sdp</dimen>
+    <dimen name="sdp_11">@dimen/_11sdp</dimen>
+    <dimen name="sdp_12">@dimen/_12sdp</dimen>
+    <dimen name="sdp_13">@dimen/_13sdp</dimen>
+    <dimen name="sdp_14">@dimen/_14sdp</dimen>
+    <dimen name="sdp_15">@dimen/_15sdp</dimen>
+    <dimen name="sdp_16">@dimen/_16sdp</dimen>
+    <dimen name="sdp_17">@dimen/_17sdp</dimen>
+    <dimen name="sdp_18">@dimen/_18sdp</dimen>
+    <dimen name="sdp_19">@dimen/_19sdp</dimen>
+    <dimen name="sdp_20">@dimen/_20sdp</dimen>
+    <dimen name="sdp_21">@dimen/_21sdp</dimen>
+    <dimen name="sdp_22">@dimen/_22sdp</dimen>
+    <dimen name="sdp_23">@dimen/_23sdp</dimen>
+    <dimen name="sdp_24">@dimen/_24sdp</dimen>
+    <dimen name="sdp_25">@dimen/_25sdp</dimen>
+    <dimen name="sdp_26">@dimen/_26sdp</dimen>
+    <dimen name="sdp_27">@dimen/_27sdp</dimen>
+    <dimen name="sdp_28">@dimen/_28sdp</dimen>
+    <dimen name="sdp_29">@dimen/_29sdp</dimen>
+    <dimen name="sdp_30">@dimen/_30sdp</dimen>
+    <dimen name="sdp_31">@dimen/_31sdp</dimen>
+    <dimen name="sdp_32">@dimen/_32sdp</dimen>
+    <dimen name="sdp_33">@dimen/_33sdp</dimen>
+    <dimen name="sdp_34">@dimen/_34sdp</dimen>
+    <dimen name="sdp_35">@dimen/_35sdp</dimen>
+    <dimen name="sdp_36">@dimen/_36sdp</dimen>
+    <dimen name="sdp_37">@dimen/_37sdp</dimen>
+    <dimen name="sdp_38">@dimen/_38sdp</dimen>
+    <dimen name="sdp_39">@dimen/_39sdp</dimen>
+    <dimen name="sdp_40">@dimen/_40sdp</dimen>
+    <dimen name="sdp_41">@dimen/_41sdp</dimen>
+    <dimen name="sdp_42">@dimen/_42sdp</dimen>
+    <dimen name="sdp_43">@dimen/_43sdp</dimen>
+    <dimen name="sdp_44">@dimen/_44sdp</dimen>
+    <dimen name="sdp_45">@dimen/_45sdp</dimen>
+    <dimen name="sdp_47">@dimen/_47sdp</dimen>
+    <dimen name="sdp_46">@dimen/_46sdp</dimen>
+    <dimen name="sdp_49">@dimen/_49sdp</dimen>
+    <dimen name="sdp_48">@dimen/_48sdp</dimen>
+    <dimen name="sdp_50">@dimen/_50sdp</dimen>
+    <dimen name="sdp_52">@dimen/_52sdp</dimen>
+    <dimen name="sdp_53">@dimen/_53sdp</dimen>
+    <dimen name="sdp_54">@dimen/_54sdp</dimen>
+    <dimen name="sdp_55">@dimen/_55sdp</dimen>
+    <dimen name="sdp_57">@dimen/_57sdp</dimen>
+    <dimen name="sdp_58">@dimen/_58sdp</dimen>
+    <dimen name="sdp_60">@dimen/_60sdp</dimen>
+    <dimen name="sdp_62">@dimen/_62sdp</dimen>
+    <dimen name="sdp_63">@dimen/_63sdp</dimen>
+    <dimen name="sdp_64">@dimen/_64sdp</dimen>
+    <dimen name="sdp_65">@dimen/_65sdp</dimen>
+    <dimen name="sdp_67">@dimen/_67sdp</dimen>
+    <dimen name="sdp_68">@dimen/_68sdp</dimen>
+    <dimen name="sdp_69">@dimen/_69sdp</dimen>
+    <dimen name="sdp_70">@dimen/_70sdp</dimen>
+    <dimen name="sdp_73">@dimen/_73sdp</dimen>
+    <dimen name="sdp_75">@dimen/_75sdp</dimen>
+    <dimen name="sdp_77">@dimen/_77sdp</dimen>
+    <dimen name="sdp_78">@dimen/_78sdp</dimen>
+    <dimen name="sdp_80">@dimen/_80sdp</dimen>
+    <dimen name="sdp_84">@dimen/_84sdp</dimen>
+    <dimen name="sdp_85">@dimen/_85sdp</dimen>
+    <dimen name="sdp_88">@dimen/_88sdp</dimen>
+    <dimen name="sdp_82">@dimen/_82sdp</dimen>
+    <dimen name="sdp_90">@dimen/_90sdp</dimen>
+    <dimen name="sdp_94">@dimen/_94sdp</dimen>
+    <dimen name="sdp_103">@dimen/_103sdp</dimen>
+    <dimen name="sdp_105">@dimen/_105sdp</dimen>
+    <dimen name="sdp_118">@dimen/_118sdp</dimen>
+    <dimen name="sdp_122">@dimen/_122sdp</dimen>
+    <dimen name="sdp_87">@dimen/_87sdp</dimen>
+    <dimen name="sdp_92">@dimen/_92sdp</dimen>
+    <dimen name="sdp_93">@dimen/_93sdp</dimen>
+    <dimen name="sdp_104">@dimen/_104sdp</dimen>
+    <dimen name="sdp_110">@dimen/_110sdp</dimen>
+    <dimen name="sdp_115">@dimen/_115sdp</dimen>
+    <dimen name="sdp_116">@dimen/_116sdp</dimen>
+    <dimen name="sdp_120">@dimen/_120sdp</dimen>
+    <dimen name="sdp_123">@dimen/_123sdp</dimen>
+    <dimen name="sdp_127">@dimen/_127sdp</dimen>
+    <dimen name="sdp_130">@dimen/_130sdp</dimen>
+    <dimen name="sdp_131">@dimen/_131sdp</dimen>
+    <dimen name="sdp_133">@dimen/_133sdp</dimen>
+    <dimen name="sdp_137">@dimen/_137sdp</dimen>
+    <dimen name="sdp_138">@dimen/_138sdp</dimen>
+    <dimen name="sdp_140">@dimen/_140sdp</dimen>
+    <dimen name="sdp_142">@dimen/_142sdp</dimen>
+    <dimen name="sdp_144">@dimen/_144sdp</dimen>
+    <dimen name="sdp_146">@dimen/_146sdp</dimen>
+    <dimen name="sdp_150">@dimen/_150sdp</dimen>
+    <dimen name="sdp_155">@dimen/_155sdp</dimen>
+    <dimen name="sdp_160">@dimen/_160sdp</dimen>
+    <dimen name="sdp_166">@dimen/_166sdp</dimen>
+    <dimen name="sdp_162">@dimen/_162sdp</dimen>
+    <dimen name="sdp_170">@dimen/_170sdp</dimen>
+    <dimen name="sdp_175">@dimen/_175sdp</dimen>
+    <dimen name="sdp_178">@dimen/_178sdp</dimen>
+    <dimen name="sdp_180">@dimen/_180sdp</dimen>
+    <dimen name="sdp_183">@dimen/_183sdp</dimen>
+    <dimen name="sdp_186">@dimen/_186sdp</dimen>
+    <dimen name="sdp_190">@dimen/_190sdp</dimen>
+    <dimen name="sdp_199">@dimen/_199sdp</dimen>
+    <dimen name="sdp_200">@dimen/_200sdp</dimen>
+    <dimen name="sdp_202">@dimen/_202sdp</dimen>
+    <dimen name="sdp_204">@dimen/_204sdp</dimen>
+    <dimen name="sdp_210">@dimen/_210sdp</dimen>
+    <dimen name="sdp_213">@dimen/_213sdp</dimen>
+    <dimen name="sdp_216">@dimen/_216sdp</dimen>
+    <dimen name="sdp_217">@dimen/_217sdp</dimen>
+    <dimen name="sdp_219">@dimen/_219sdp</dimen>
+    <dimen name="sdp_222">@dimen/_222sdp</dimen>
+    <dimen name="sdp_230">@dimen/_230sdp</dimen>
+    <dimen name="sdp_238">@dimen/_238sdp</dimen>
+    <dimen name="sdp_239">@dimen/_239sdp</dimen>
+    <dimen name="sdp_250">@dimen/_250sdp</dimen>
+    <dimen name="sdp_251">@dimen/_251sdp</dimen>
+    <dimen name="sdp_252">@dimen/_252sdp</dimen>
+    <dimen name="sdp_258">@dimen/_258sdp</dimen>
+    <dimen name="sdp_260">@dimen/_260sdp</dimen>
+    <dimen name="sdp_266">@dimen/_266sdp</dimen>
+    <dimen name="sdp_267">@dimen/_267sdp</dimen>
+    <dimen name="sdp_272">@dimen/_272sdp</dimen>
+    <dimen name="sdp_275">@dimen/_275sdp</dimen>
+    <dimen name="sdp_294">@dimen/_294sdp</dimen>
+    <dimen name="sdp_295">@dimen/_295sdp</dimen>
+    <dimen name="sdp_306">@dimen/_306sdp</dimen>
+    <dimen name="sdp_303">@dimen/_303sdp</dimen>
+    <dimen name="sdp_320">@dimen/_320sdp</dimen>
+    <dimen name="sdp_360">@dimen/_360sdp</dimen>
+    <dimen name="sdp_380">@dimen/_380sdp</dimen>
+    <dimen name="sdp_400">@dimen/_400sdp</dimen>
+    <dimen name="sdp_410">@dimen/_410sdp</dimen>
+    <dimen name="sdp_408">@dimen/_408sdp</dimen>
+    <dimen name="sdp_430">@dimen/_430sdp</dimen>
+    <dimen name="sdp_460">@dimen/_460sdp</dimen>
+    <dimen name="sdp_480">@dimen/_480sdp</dimen>
+    <dimen name="sdp_500">@dimen/_500sdp</dimen>
+
+
+    <!--ssp equivalent dimen-->
+    <dimen name="ssp_1">@dimen/_1ssp</dimen>
+    <dimen name="ssp_2">@dimen/_2ssp</dimen>
+    <dimen name="ssp_3">@dimen/_3ssp</dimen>
+    <dimen name="ssp_4">@dimen/_4ssp</dimen>
+    <dimen name="ssp_5">@dimen/_5ssp</dimen>
+    <dimen name="ssp_6">@dimen/_6ssp</dimen>
+    <dimen name="ssp_7">@dimen/_7ssp</dimen>
+    <dimen name="ssp_8">@dimen/_8ssp</dimen>
+    <dimen name="ssp_9">@dimen/_9ssp</dimen>
+    <dimen name="ssp_10">@dimen/_10ssp</dimen>
+    <dimen name="ssp_11">@dimen/_11ssp</dimen>
+    <dimen name="ssp_12">@dimen/_12ssp</dimen>
+    <dimen name="ssp_13">@dimen/_13ssp</dimen>
+    <dimen name="ssp_14">@dimen/_14ssp</dimen>
+    <dimen name="ssp_15">@dimen/_15ssp</dimen>
+    <dimen name="ssp_16">@dimen/_16ssp</dimen>
+    <dimen name="ssp_17">@dimen/_17ssp</dimen>
+    <dimen name="ssp_18">@dimen/_18ssp</dimen>
+    <dimen name="ssp_19">@dimen/_19ssp</dimen>
+    <dimen name="ssp_20">@dimen/_20ssp</dimen>
+    <dimen name="ssp_21">@dimen/_21ssp</dimen>
+    <dimen name="ssp_23">@dimen/_23ssp</dimen>
+    <dimen name="ssp_24">@dimen/_24ssp</dimen>
+    <dimen name="ssp_25">@dimen/_25ssp</dimen>
+    <dimen name="ssp_26">@dimen/_26ssp</dimen>
+    <dimen name="ssp_27">@dimen/_27ssp</dimen>
+    <dimen name="ssp_28">@dimen/_28ssp</dimen>
+    <dimen name="ssp_30">@dimen/_30ssp</dimen>
+    <dimen name="ssp_32">@dimen/_32ssp</dimen>
+    <dimen name="ssp_33">@dimen/_33ssp</dimen>
+    <dimen name="ssp_38">@dimen/_38ssp</dimen>
+    <dimen name="ssp_40">@dimen/_40ssp</dimen>
+    <dimen name="ssp_42">@dimen/_42ssp</dimen>
+    <dimen name="ssp_58">@dimen/_58ssp</dimen>
+
+    <dimen name="figma_53_dp">@dimen/sdp_44</dimen>
+    <dimen name="figma_38_dp">@dimen/sdp_32</dimen>
+    <dimen name="figma_57_dp">@dimen/sdp_48</dimen>
+    <dimen name="figma_59_dp">@dimen/sdp_49</dimen>
+
+    <dimen name="figma_80_dp">@dimen/sdp_67</dimen>
+    <dimen name="figma_15_dp">@dimen/sdp_13</dimen>
+    <dimen name="figma_34_sp">@dimen/ssp_28</dimen>
+    <dimen name="figma_33_dp">@dimen/sdp_27</dimen>
+    <dimen name="figma_34_dp">@dimen/sdp_28</dimen>
+    <dimen name="figma_92_dp">@dimen/sdp_77</dimen>
+    <dimen name="figma_94_dp">@dimen/sdp_78</dimen>
+    <dimen name="figma_288_dp">@dimen/_240sdp</dimen>
+    <dimen name="figma_336_dp">@dimen/_280sdp</dimen>
+    <dimen name="figma_95_dp">@dimen/sdp_77</dimen>
+    <dimen name="sdp_100">@dimen/_100sdp</dimen>
+    <dimen name="single_and_half_margin">24dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="video_frame_height">220dp</dimen>
+    <dimen name="toolbar_image_height">222dp</dimen>
+
+    <dimen name="toolbar_image_height_tv_gone">180dp</dimen>
+    <dimen name="quarter_margin">4dp</dimen>
+    <dimen name="figma_48_sp">@dimen/_40sdp</dimen>
+    <dimen name="figma_140_dp">@dimen/_117sdp</dimen>
+
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_60dp">60dp</dimen>
+    <dimen name="size_80dp">80dp</dimen>
+    <dimen name="size_5dp">5dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="keyboard_max_height">387dp</dimen>
+    <dimen name="size_38dp">38dp</dimen>
+    <dimen name="dimen_250dp">250dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="dimen_16sp">16sp</dimen>
+    <dimen name="dimen_20sp">20sp</dimen>
+    <dimen name="figma_21_dp">@dimen/_18ssp</dimen>
+
+    <!-- maya -->
+
+    <dimen name="pageMargin">@dimen/_4sdp</dimen>
+    <dimen name="offset">@dimen/_26sdp</dimen>
+    <dimen name="pageMarginAndOffset">@dimen/_32sdp</dimen>
+    <dimen name="marginsGrid">@dimen/_4sdp</dimen>
+
+    <!--Ktrade-->
+    <dimen name="kpageMargin">40dp</dimen>
+    <dimen name="koffset">60dp</dimen>
+    <dimen name="kpageMarginAndOffset">50dp</dimen>
+
+    <dimen name="viewpager_next_item_visible_ktrade">26dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin_ktrade">42dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin1">22dp</dimen>
+    <dimen name="payoneer_currencies_item_horizontal_margin">12dp</dimen>
+
+    <dimen name="window_popup_corner_radius">5dp</dimen>
+
+    <dimen name="default_key_height">@dimen/figma_48_dp</dimen>
+    <dimen name="default_key_half_height">@dimen/figma_26_dp</dimen>
+    <dimen name="default_key_tall_height">54dp</dimen>
+
+    <dimen name="big_key_height">58dp</dimen>
+    <dimen name="big_key_half_height">42dp</dimen>
+    <dimen name="big_key_tall_height">64dp</dimen>
+
+    <dimen name="default_key_vertical_gap">0dp</dimen>
+    <dimen name="jazz_key_vertical_gap">@dimen/figma_24_dp</dimen>
+    <dimen name="default_key_horizontal_gap">1dp</dimen>
+    <dimen name="plain_theme_key_horizontal_gap">3dp</dimen>
+    <dimen name="plain_theme_key_vertical_gap">3dp</dimen>
+
+    <dimen name="key_text_size">26sp</dimen>
+    <dimen name="lean_key_text_size">18sp</dimen>
+    <dimen name="lean_big_key_text_size">24sp</dimen>
+    <dimen name="key_label_text_size">14sp</dimen>
+    <dimen name="key_hint_text_size">7sp</dimen>
+    <dimen name="keyboard_name_text_size">10sp</dimen>
+
+    <dimen name="candidate_strip_height">@dimen/figma_48_dp</dimen>
+    <dimen name="candidate_font_height">18sp</dimen>
+    <dimen name="candidate_strip_x_gap">15dp</dimen>
+    <dimen name="candidate_min_touchable_width">0.3in</dimen>
+
+    <dimen name="key_hysteresis_distance">10dp</dimen>
+    <dimen name="key_preview_offset">0dp</dimen>
+    <dimen name="mini_keyboard_slide_allowance">80dp</dimen>
+
+    <dimen name="key_corner_radius">3dp</dimen>
+
+    <dimen name="key_top_inset">3dp</dimen>
+    <dimen name="key_bottom_inset">3dp</dimen>
+    <dimen name="key_right_inset">2.5dp</dimen>
+    <dimen name="key_left_inset">2.5dp</dimen>
+
+    <integer name="condensing_precentage">90</integer>
+    <integer name="condensing_precentage_edge">80</integer>
+
+    <dimen name="blacktheme_size_text_main">20sp</dimen>
+    <dimen name="blacktheme_size_text_smaller">14sp</dimen>
+    <dimen name="blacktheme_size_text_hint">12sp</dimen>
+    <dimen name="blacktheme_size_text_preview">28sp</dimen>
+    <dimen name="blacktheme_keygap_horizontal">1.5dp</dimen>
+    <dimen name="blacktheme_keygap_vertical">0.5dp</dimen>
+    <dimen name="blacktheme_radius_popup_corner">2dp</dimen>
+    <dimen name="blacktheme_radius_key_corner">1dp</dimen>
+    <dimen name="blacktheme_width_key_pressed_stroke">2dp</dimen>
+    <dimen name="blacktheme_width_key_stroke">1.5dp</dimen>
+    <dimen name="blacktheme_width_topborder">1.5dp</dimen>
+    <dimen name="blacktheme_key_height">48dp</dimen>
+    <dimen name="blacktheme_key_half_height">36dp</dimen>
+    <dimen name="blacktheme_key_tall_height">52dp</dimen>
+    <dimen name="blacktheme_paddingLeft">1dp</dimen>
+    <dimen name="blacktheme_paddingRight">1dp</dimen>
+    <dimen name="blacktheme_paddingTop">0dp</dimen>
+    <dimen name="blacktheme_paddingBottom">0dp</dimen>
+
+    <dimen name="default_paddingBottom">0dp</dimen>
+ <dimen name="jazz_paddingTop">8dp</dimen>
+
+    <dimen name="font_size_title">16sp</dimen>
+    <dimen name="font_size_large">24sp</dimen>
+    <dimen name="font_size_sub_title">18sp</dimen>
+    <dimen name="font_size_text">14sp</dimen>
+    <dimen name="font_size_hint_text">15sp</dimen>
+    <dimen name="font_size_small_text">12sp</dimen>
+
+    <!-- Global content UI padding, bottom -->
+    <dimen name="global_content_padding_bottom">4dp</dimen>
+    <!-- Global content UI padding, sides -->
+    <dimen name="global_content_padding_side">16dp</dimen>
+    <!-- MAKE SURE THIS VALUE ALIGNED WITH DEMO-KEYBOARD-VIEW BACKGROUND PADDING! -->
+
+    <dimen name="comfortable_min_row_height">@dimen/figma_48_dp</dimen>
+    <dimen name="quick_key_size">50dp</dimen>
+
+    <dimen name="yochees_radius_key_corner">5dp</dimen>
+    <dimen name="gesture_stroke_width">4dp</dimen>
+    <dimen name="watermark_size">12sp</dimen>
+    <dimen name="watermark_margin">3dp</dimen>
+
+    <dimen name="gesture_typing_min_point_distance">5sp</dimen>
+    <dimen name="gesture_typing_frequency_factor">2.5dp</dimen>
+    <dimen name="extension_keyboard_reveal_point">-10dp</dimen>
+
+    <dimen name="jazz_key_height">@dimen/figma_94_dp</dimen>
+    <dimen name="jazz_key_width">@dimen/figma_64_dp</dimen>
+    <dimen name="jazz_key_horizontal_gap">@dimen/figma_42_dp</dimen>
+    <dimen name="figma_192_dp">@dimen/_160sdp</dimen>
+    <dimen name="figma_104_dp">@dimen/_80sdp</dimen>
+    <dimen name="figma_144_dp">@dimen/_120sdp</dimen>
+    <dimen name="figma_147_dp">@dimen/_123sdp</dimen>
+    <dimen name="viewpager_next_item_visible">@dimen/_125sdp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">@dimen/_32sdp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin_">@dimen/_20sdp</dimen>
+    <dimen name="viewpager_next_item_visible_">20dp</dimen>
+
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+
+    <dimen name="figma_206_dp">@dimen/_181sdp</dimen>
+    <dimen name="figma_215_dp">@dimen/_187sdp</dimen>
+    <dimen name="figma_230_dp">@dimen/_202sdp</dimen>
+    <dimen name="figma_280_dp">@dimen/_244sdp</dimen>
+    <dimen name="figma_195_dp">@dimen/_172sdp</dimen>
+    <dimen name="figma_295_dp">@dimen/_260sdp</dimen>
+    <dimen name="space_between_items">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+
+    <!--Home Screen Common Dimen-->
+    <dimen name="toolbar_margin_top">@dimen/_40sdp</dimen>
+    <dimen name="card_corner_radius">@dimen/figma_14_dp</dimen>
+
+</resources>

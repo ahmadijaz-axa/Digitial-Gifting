@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:bottomLeftRadius="@dimen/figma_4_dp"
+        android:bottomRightRadius="@dimen/figma_4_dp"
+        android:topLeftRadius="@dimen/figma_4_dp"
+        android:topRightRadius="@dimen/figma_4_dp" />
+    <solid android:color="#FFFFFF" />
+</shape>

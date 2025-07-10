@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>category_version</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>config_version</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>appdynamics_version</key>
+        <value>1</value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#525252" />
+    <corners
+        android:topLeftRadius="@dimen/figma_30_dp"
+        android:topRightRadius="@dimen/figma_30_dp"
+        android:bottomRightRadius="@dimen/figma_30_dp"
+        android:bottomLeftRadius="@dimen/figma_30_dp"
+        />
+</shape>

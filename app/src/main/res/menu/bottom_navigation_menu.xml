@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_bottom_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_enable_disable"
+        android:title="@string/home_bottom_nav" />
+    <item
+        android:id="@+id/locator_bottom_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_locator_enable_disable"
+        android:title="@string/agent_bottom_nav" />
+    <item
+        android:itemTextAppearance="?android:attr/textAppearance"
+        android:id="@+id/scan_bottom_nav"
+        android:enabled="true"
+        android:title="" />
+<!--    <item-->
+<!--        android:id="@+id/rewards_bottom_nav"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_search"-->
+<!--        android:title="@string/invite" />-->
+    <item
+        android:id="@+id/favourite_bottom_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_enable_disable"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/search_bottom_nav"
+        android:enabled="true"
+        android:icon="@drawable/ic_promotion_disable"
+        android:title="Promotions"/>
+
+
+</menu>
